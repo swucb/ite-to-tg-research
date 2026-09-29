@@ -1,0 +1,90 @@
+[
+  {
+    "id": "H01",
+    "title": "用缺陷/极化产生的局部电场与锚定位点，尝试调节 TG 中的离子配对",
+    "status": "保留；优先核查机制适用性",
+    "source": [
+      "iTE:P0589:r001",
+      "iTE:P0589:r002",
+      "iTE:P0589:r003",
+      "iTE:P0589:r004",
+      "iTE:P0589:r005",
+      "iTE:P0589:r013"
+    ],
+    "target": [
+      "TG:P0021:complete_v1_cr001",
+      "TG:P0021:r001",
+      "TG:P0021:r002",
+      "TG:P0285:r004",
+      "TG:P0083:r004"
+    ],
+    "mechanism": "SrTiO3 极化与富氧空位表面 → 局部电场及离子选择性锚定位点 → 共同促进离子解离。源还报告迁移不对称性增强，器件采用电容过程。",
+    "hypothesis": "在有配对/浓度梯度限制的 TG 凝胶中，测试这样的局部场与表面位点能否提高目标离子的解离或有效活度，同时保持红氧物种输运。借用的是调控途径，不是把源侧热电系数直接移植。",
+    "existing": "TG 已有双层空间分隔控制梯度，也有在不同 Fe(III/II) 电对中利用弱配位阴离子抑制配对的方案；TG 电极已有氧空位。因此“用氧空位”本身不是新颖性，待查的是凝胶内局部场/锚定位点作用于配对这一具体组合。",
+    "gap": "源为离子热电电容体系，目标含可反应红氧电对。锚定可能提高解离，也可能过度束缚红氧物种；摘要没有给出在目标体系中的净效果。不得把联合因素拆成“氧空位单独有效”。",
+    "validation": "在同组成和含水量条件下比较无填料、缺陷较少/较多的对照，分辨极化、缺陷与表面积影响；测配对/物种状态、红氧物种扩散、电导、热电势、持续功率和电化学稳定性。",
+    "application_domain": "TG",
+    "evidence_status": "abstract_supported_source_hypothesis_not_TG_validation",
+    "full_text_review": "pending",
+    "external_TG_prior_art_review": "pending",
+    "experiment": "not_run"
+  },
+  {
+    "id": "H02",
+    "title": "把 MOF/水凝胶吸水外层用于 TG 的水分管理",
+    "status": "保留；架构迁移假设，仅覆盖失水部分",
+    "source": [
+      "iTE:P0621:r009",
+      "iTE:P0621:r010",
+      "iTE:P0621:r011",
+      "iTE:P0621:r012",
+      "iTE:P0621:complete_v1_cr001"
+    ],
+    "target": [
+      "TG:P0061:complete_v1_cr002",
+      "TG:P0061:r003",
+      "TG:P0061:r005",
+      "TG:P0058:r006",
+      "TG:P0058:r007",
+      "TG:P0048:r006"
+    ],
+    "mechanism": "源将 MOF-801 与水凝胶组成外层，置于质子掺杂 PEDOT:PSS 薄膜上；摘要报告局部相对湿度约 90%，并维持超过 72 h 的开路电压。这里是同论文的结构与表现证据，不把不同主体的边伪装为完整因果链。",
+    "hypothesis": "对易失水的 TG 凝胶，测试相对独立的吸水/缓释水外层能否维持水分与红氧电解质浓度，尽量减少对凝胶本体配方的改动。",
+    "existing": "TG 已有甘油/水抗干燥、吸湿盐以及从空气吸水恢复水分的做法。不能宣称“自主补水”是新机制；待查的差别是 MOF/凝胶外层与 TG 工作层的分离布置及其实际收益。",
+    "gap": "源主要报告湿度和开路电压，未证明 TG 持续负载输出；也未证明抗冻。外层可能改变热阻、温差和水/盐分布，这些都需检查。",
+    "validation": "对照裸 TG、仅水凝胶外层和 MOF/水凝胶外层；在规定温湿度和负载下记录质量、水分/盐浓度、实际两电极温差与持续功率。72 h 开路电压不能替代连续发电证据。",
+    "application_domain": "TG",
+    "evidence_status": "abstract_supported_source_hypothesis_not_TG_validation",
+    "full_text_review": "pending",
+    "external_TG_prior_art_review": "pending",
+    "experiment": "not_run"
+  },
+  {
+    "id": "H03",
+    "title": "借鉴聚合物链作用促使离子聚集体解离",
+    "status": "保留备选；机制证据较弱",
+    "source": [
+      "iTE:P0548:r001",
+      "iTE:P0548:r002",
+      "iTE:P0548:r003",
+      "iTE:P0548:r004",
+      "iTE:P0548:r005"
+    ],
+    "target": [
+      "TG:P0021:complete_v1_cr001",
+      "TG:P0285:r004",
+      "TG:P0249:r004",
+      "TG:P0249:r005"
+    ],
+    "mechanism": "MWCNT/聚合物/离子液体体系中，作者用“聚合物链呼吸”模型解释聚集体解离及电导提高；1 wt% 配方的电导增益和 0.25 wt% 的最佳热电表现不能混成同一配方结论。",
+    "hypothesis": "测试 TG 凝胶中可调的聚合物—离子作用，能否改变配对/聚集状态并保持红氧物种移动；不是直接照搬 MWCNT 配方。",
+    "existing": "TG 已有弱配位阴离子抑制配对、聚合物选择性结合保留反离子移动的相关工作。此处的待查差别是动态链作用促进解聚的具体路径。",
+    "gap": "源是非水离子液体凝胶，目标可为水系红氧凝胶。电导增加只是表现，解聚为作者模型归因；不能声称已直接观测并验证了目标机制。",
+    "validation": "先找全文中离子聚集/配对的直接证据，再设计链段作用或交联度对照；同时检查红氧物种扩散、电荷转移及是否引入电子漏电。若只有电导变化，仍不能确认解聚路径。",
+    "application_domain": "TG",
+    "evidence_status": "abstract_supported_source_hypothesis_not_TG_validation",
+    "full_text_review": "pending",
+    "external_TG_prior_art_review": "pending",
+    "experiment": "not_run"
+  }
+]

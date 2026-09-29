@@ -1,0 +1,9 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "text_hash": "ef2b56435e06af0f96aa3c4d81d082bb212dbe0308a28d9655b23bb368b99970",
+  "shape": [
+    29898,
+    384
+  ],
+  "max_seq_length": 192
+}

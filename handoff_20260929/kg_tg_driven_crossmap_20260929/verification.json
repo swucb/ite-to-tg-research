@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "type": "integrity_numerical_and_traceability_not_scientific_transfer_validation",
+  "paper_counts": {
+    "iTE": 1644,
+    "TG": 333
+  },
+  "input_hashes_unchanged": true,
+  "all_accepted_claims_scored_for_each_need": true,
+  "score_records": {
+    "iTE": 82796,
+    "TG": 14468
+  },
+  "queries_recomputed": 8,
+  "top200_score_and_ranking_checks": "PASS",
+  "reviewed_packets": 42,
+  "same_paper_neighborhood_checks": 82,
+  "quotes_in_clean_abstracts": "PASS"
+}

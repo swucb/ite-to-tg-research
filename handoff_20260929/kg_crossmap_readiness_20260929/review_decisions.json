@@ -1,0 +1,1762 @@
+[
+  {
+    "sample_index": 0,
+    "domain": "iTE",
+    "stratum": "random_edge:intrinsic_material_mechanism",
+    "claim_id": "iTE:P1527:r009",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "may 调节保留为假设/可能性，未指定导热率增减。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 1,
+    "domain": "iTE",
+    "stratum": "random_edge:intrinsic_material_mechanism",
+    "claim_id": "iTE:P1863:r002",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "计算框架限定的 AFM 基态；不是离子输运机制。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 2,
+    "domain": "iTE",
+    "stratum": "random_edge:intrinsic_material_mechanism",
+    "claim_id": "iTE:P1314:r004",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "供体能级解释为 hypothesis，未升级为实验证实。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 3,
+    "domain": "iTE",
+    "stratum": "random_edge:intrinsic_material_mechanism",
+    "claim_id": "iTE:P1722:r003",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "主引文仅介绍体系；增加方向由 context_quote 支持。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 4,
+    "domain": "iTE",
+    "stratum": "random_edge:intrinsic_material_mechanism",
+    "claim_id": "iTE:P0955:r002",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "降低信息保存在 object_state，不能仅用 enable 的 effect_direction。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 5,
+    "domain": "iTE",
+    "stratum": "random_edge:intrinsic_material_mechanism",
+    "claim_id": "iTE:P1657:complete_v1_cr001",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "历史成果陈述由上下文支持；has_property 残余 achieved 需保留。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 6,
+    "domain": "iTE",
+    "stratum": "random_edge:thermodynamics",
+    "claim_id": "iTE:P0595:complete_v1_cr002",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "联合因素在主语中，结果是 Seebeck 增加，不能拆成独立充分原因。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 7,
+    "domain": "iTE",
+    "stratum": "random_edge:thermodynamics",
+    "claim_id": "iTE:P1373:r004",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "比较对象与形成能在上下文中明确；不是迁移因果边。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 8,
+    "domain": "iTE",
+    "stratum": "random_edge:thermodynamics",
+    "claim_id": "iTE:P0843:r011",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "2.3 是计算的 n 型 ZT，条件 500 K 需随边保留。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 9,
+    "domain": "iTE",
+    "stratum": "random_edge:thermodynamics",
+    "claim_id": "iTE:P1101:r023",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "2.09 对应 1000 K，计算结果不能当实测。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 10,
+    "domain": "iTE",
+    "stratum": "random_edge:thermodynamics",
+    "claim_id": "iTE:P1951:r008",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "化合物与形成能的对应由引文明确支持。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 11,
+    "domain": "iTE",
+    "stratum": "random_edge:thermodynamics",
+    "claim_id": "iTE:P0399:complete_v1_cr003",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "依赖关系有引文，不等同于三个指标均越高越好。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 12,
+    "domain": "iTE",
+    "stratum": "random_edge:ion_mass_transport",
+    "claim_id": "iTE:P1473:r005",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "仅说明电导依赖温度，未给增减；unspecified 类型保守合理。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 13,
+    "domain": "iTE",
+    "stratum": "random_edge:ion_mass_transport",
+    "claim_id": "iTE:P0350:r003",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "NaTFSI 联合因素与 hypothesis 已保存，不能只读乙醇主语。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 14,
+    "domain": "iTE",
+    "stratum": "random_edge:ion_mass_transport",
+    "claim_id": "iTE:P0878:r009",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "影响热扩散有证据，未明确作用方向。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 15,
+    "domain": "iTE",
+    "stratum": "random_edge:ion_mass_transport",
+    "claim_id": "iTE:P1457:r002",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "Li+ 与 Cl− 同属热输运量但数值不同；禁止概念合并丢掉对象差别。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 16,
+    "domain": "iTE",
+    "stratum": "random_edge:ion_mass_transport",
+    "claim_id": "iTE:P1687:r009",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "K2O 影响玻璃电导的陈述有证据。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 17,
+    "domain": "iTE",
+    "stratum": "random_edge:ion_mass_transport",
+    "claim_id": "iTE:P1705:r002",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "oEG 支链允许电解液吸收有证据，晶区/非晶区限定仍需读上下文。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 18,
+    "domain": "iTE",
+    "stratum": "random_edge:electrode_interface_kinetics",
+    "claim_id": "iTE:P1641:r003",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "Zn 作为电池负极是角色关系；不能作为热电因果边。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 19,
+    "domain": "iTE",
+    "stratum": "random_edge:electrode_interface_kinetics",
+    "claim_id": "iTE:P1738:r004",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "电流密度控制多孔 Pt 生长有证据。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 20,
+    "domain": "iTE",
+    "stratum": "random_edge:electrode_interface_kinetics",
+    "claim_id": "iTE:P1706:r004",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "低电导限制初期嵌入有证据，当前复合表达未关联概念。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 21,
+    "domain": "iTE",
+    "stratum": "random_edge:electrode_interface_kinetics",
+    "claim_id": "iTE:P1880:r006",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "battery-type 行为有证据，不能据来源 iTE 标签当作离子热电机制。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 22,
+    "domain": "iTE",
+    "stratum": "random_edge:electrode_interface_kinetics",
+    "claim_id": "iTE:P1709:r007",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "may 与 suggests 属假设限定，已保留。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 23,
+    "domain": "iTE",
+    "stratum": "random_edge:electrode_interface_kinetics",
+    "claim_id": "iTE:P0545:r006",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "superior resistance 沿用原文，不可自行解释为更高或更低电阻。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 24,
+    "domain": "iTE",
+    "stratum": "hub_association",
+    "claim_id": "iTE:P0522:r003",
+    "sample_node_id": "iTE:Ce8002dd38a684e",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "原文未观察到热电势；assertion/negated 已正确保存。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 25,
+    "domain": "iTE",
+    "stratum": "hub_association",
+    "claim_id": "iTE:P0468:r003",
+    "sample_node_id": "iTE:Ccb1b77bca85b5c",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "384.615 microV/K 与引文编码等价；增大方向有证据。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 26,
+    "domain": "iTE",
+    "stratum": "hub_association",
+    "claim_id": "iTE:P0716:r003",
+    "sample_node_id": "iTE:Cfcaf2289eb1346",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "超离子机制与 ZT 的作者陈述保留，不能解释成所有超离子体系通则。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 27,
+    "domain": "iTE",
+    "stratum": "hub_association",
+    "claim_id": "iTE:P0427:r009",
+    "sample_node_id": "iTE:C12d8030fffb1ad",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "2.39×10^5 为相对倍数，具体值是 8.9×10^-3；限定保留在表达。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 28,
+    "domain": "iTE",
+    "stratum": "hub_association",
+    "claim_id": "iTE:P1198:r006",
+    "sample_node_id": "iTE:Cf36a872404abac",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "电子电导和 Seebeck 共同作用，不可忽略 joint_factors。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 29,
+    "domain": "iTE",
+    "stratum": "hub_association",
+    "claim_id": "iTE:P0446:r004",
+    "sample_node_id": "iTE:C2c36339a15ea7e",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "离子功率因子保留在原表达；基础概念关联不等于离子/电子指标全等。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 30,
+    "domain": "iTE",
+    "stratum": "hub_association",
+    "claim_id": "iTE:P1144:r001",
+    "sample_node_id": "iTE:C850d7a9cb5328b",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "直接带隙由 context_quotes 支持。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 31,
+    "domain": "iTE",
+    "stratum": "hub_association",
+    "claim_id": "iTE:P1808:r003",
+    "sample_node_id": "iTE:C748be5427c3893",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "0.463 eV 对应 GGA；其他计算方法得到不同结果。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 32,
+    "domain": "iTE",
+    "stratum": "unassociated_expression",
+    "claim_id": "iTE:P1941:r012",
+    "sample_node_id": "iTE:C2afdccf2cc4360",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "化学硬度为指示量，不构成提高电子电导的实验调控。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 33,
+    "domain": "iTE",
+    "stratum": "unassociated_expression",
+    "claim_id": "iTE:P0664:complete_v1_cr001",
+    "sample_node_id": "iTE:C414511e35389f4",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "材料对象保持独立是合理的，不是所有未关联节点都应合并。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 34,
+    "domain": "iTE",
+    "stratum": "unassociated_expression",
+    "claim_id": "iTE:P0874:r001",
+    "sample_node_id": "iTE:C58bf1112fd8552",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "复合材料引入异质界面的上下文证据明确。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 35,
+    "domain": "iTE",
+    "stratum": "unassociated_expression",
+    "claim_id": "iTE:P1275:r007",
+    "sample_node_id": "iTE:Cdb8c1afa2b3995",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "missing_concept_association",
+    "note_zh": "离子电导劣化为明确机制结果，概念关联缺失；建议状态感知归一。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 36,
+    "domain": "iTE",
+    "stratum": "unassociated_expression",
+    "claim_id": "iTE:P0574:r008",
+    "sample_node_id": "iTE:C6d9d230101498b",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "source_quantity_unit_ambiguity",
+    "note_zh": "原文称 thermovoltage 但单位为 mV/K；原文措辞与量纲存在歧义，待核，不擅改。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 37,
+    "domain": "iTE",
+    "stratum": "unassociated_expression",
+    "claim_id": "iTE:P0373:r003",
+    "sample_node_id": "iTE:Ca9c72122cc8f9b",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "交替阳/阴离子主导热扩散是复合过程，不能简单丢弃主导对象。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 38,
+    "domain": "iTE",
+    "stratum": "unassociated_expression",
+    "claim_id": "iTE:P1425:r013",
+    "sample_node_id": "iTE:C3194c858da5008",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "missing_concept_association",
+    "note_zh": "cross-plane lattice thermal conductivity 是明确量，方向和数值应保留后关联。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 39,
+    "domain": "iTE",
+    "stratum": "unassociated_expression",
+    "claim_id": "iTE:P0336:r007",
+    "sample_node_id": "iTE:C0333804bb268c9",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "阴/阳离子热泳差异是迁移相关过程，当前未关联，需领域语义处理。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 40,
+    "domain": "iTE",
+    "stratum": "small_component",
+    "claim_id": "iTE:P1908:r004",
+    "sample_node_id": "iTE:C4314ad9d383c53",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "不显著影响与高对称性限定已保存，不能去否定后画促进边。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 41,
+    "domain": "iTE",
+    "stratum": "small_component",
+    "claim_id": "iTE:P1205:r010",
+    "sample_node_id": "iTE:Cff93e87652af0d",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "missing_concept_association",
+    "note_zh": "间接 M–X 带隙是明确量，方向/跃迁限定应保留。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 42,
+    "domain": "iTE",
+    "stratum": "small_component",
+    "claim_id": "iTE:P0616:r002",
+    "sample_node_id": "iTE:Ce2e2ad6f069314",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "TtoE 因子名称与 mV/K 单位不能仅凭相同量纲直接等同 Seebeck。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 43,
+    "domain": "iTE",
+    "stratum": "small_component",
+    "claim_id": "iTE:P1532:r004",
+    "sample_node_id": "iTE:Ce9451d173059d4",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "各向异性电子性质是状态表达，有证据但不宜硬并为单一物理量。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 44,
+    "domain": "TG",
+    "stratum": "random_edge:intrinsic_material_mechanism",
+    "claim_id": "TG:P0177:r005",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "光吸收属性有证据，属于材料属性而非热电因果链。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 45,
+    "domain": "TG",
+    "stratum": "random_edge:intrinsic_material_mechanism",
+    "claim_id": "TG:P0165:complete_v1_cr001",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "unresolved_passive_predicate",
+    "note_zh": "被动谓语 is driven by 未归一，结构消费者不能把箭头理解为正向驱动。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 46,
+    "domain": "TG",
+    "stratum": "random_edge:intrinsic_material_mechanism",
+    "claim_id": "TG:P0252:r001",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "羧酸盐基团组成属性有证据。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 47,
+    "domain": "TG",
+    "stratum": "random_edge:intrinsic_material_mechanism",
+    "claim_id": "TG:P0290:r010",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "I-V 不过原点保存在对象文本；不代表 has_property 整条边应否定。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 48,
+    "domain": "TG",
+    "stratum": "random_edge:intrinsic_material_mechanism",
+    "claim_id": "TG:P0085:r003",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "自由溶剂化离子被保留的状态有证据。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 49,
+    "domain": "TG",
+    "stratum": "random_edge:intrinsic_material_mechanism",
+    "claim_id": "TG:P0270:r008",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "有机溶剂引起沉淀的陈述由引文直接支持。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 50,
+    "domain": "TG",
+    "stratum": "random_edge:thermodynamics",
+    "claim_id": "TG:P0195:r007",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "rather than 排除溶剂化解释，negated 已正确保留。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 51,
+    "domain": "TG",
+    "stratum": "random_edge:thermodynamics",
+    "claim_id": "TG:P0329:r002",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "线性变化不等于必然正向增加；冻结点边界应保留。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 52,
+    "domain": "TG",
+    "stratum": "random_edge:thermodynamics",
+    "claim_id": "TG:P0270:complete_v1_cr002",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "missing_concept_association_candidate",
+    "note_zh": "solvation effect 未关联 solvation 概念，是待判断的表达差异。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 53,
+    "domain": "TG",
+    "stratum": "random_edge:thermodynamics",
+    "claim_id": "TG:P0020:complete_v1_cr001",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "MD suggests 的 hypothesis/computational 已保存。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 54,
+    "domain": "TG",
+    "stratum": "random_edge:thermodynamics",
+    "claim_id": "TG:P0032:complete_v1_cr001",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "missing_concept_association",
+    "note_zh": "限定的氧化还原对热电势未归一，机制邻域可能因此分裂。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 55,
+    "domain": "TG",
+    "stratum": "random_edge:thermodynamics",
+    "claim_id": "TG:P0179:r002",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "9.62 对应 p 型；原体系和极性有上下文支持。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 56,
+    "domain": "TG",
+    "stratum": "random_edge:ion_mass_transport",
+    "claim_id": "TG:P0201:r006",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "综述中的 includes 原句可追溯，不能升级为普遍本体关系。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 57,
+    "domain": "TG",
+    "stratum": "random_edge:ion_mass_transport",
+    "claim_id": "TG:P0295:r004",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "missing_concept_association",
+    "note_zh": "盐浓度梯度尚未关联基础概念，保留 small 和盐对象可进一步归一。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 58,
+    "domain": "TG",
+    "stratum": "random_edge:ion_mass_transport",
+    "claim_id": "TG:P0249:r006",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "主动选择性导离子为复合功能，不能直接等同导电率。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 59,
+    "domain": "TG",
+    "stratum": "random_edge:ion_mass_transport",
+    "claim_id": "TG:P0193:complete_v1_cr006",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "residual_direction_required",
+    "note_zh": "causes 的 loss of 残余必须保留，否则会把失去输运能力读反。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 60,
+    "domain": "TG",
+    "stratum": "random_edge:ion_mass_transport",
+    "claim_id": "TG:P0013:r004",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "双网络和植酸是联合因素，已有保存。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 61,
+    "domain": "TG",
+    "stratum": "random_edge:ion_mass_transport",
+    "claim_id": "TG:P0019:r004",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "1.84 S/m 及离子电导有明确证据。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 62,
+    "domain": "TG",
+    "stratum": "random_edge:electrode_interface_kinetics",
+    "claim_id": "TG:P0154:r004",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "confirmed_concept_split",
+    "note_zh": "电化学活性表面积被归为普通电极表面积，而图中已有 electroactive_surface_area；确认关联分裂。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 63,
+    "domain": "TG",
+    "stratum": "random_edge:electrode_interface_kinetics",
+    "claim_id": "TG:P0049:r001",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "氧化还原与热电腐蚀的协同保留为复合表达，不单独推断因果。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 64,
+    "domain": "TG",
+    "stratum": "random_edge:electrode_interface_kinetics",
+    "claim_id": "TG:P0083:r006",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "面积与氧空位共同提高电流密度，joint_factors 必须参与结构特征。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 65,
+    "domain": "TG",
+    "stratum": "random_edge:electrode_interface_kinetics",
+    "claim_id": "TG:P0204:r002",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "residual_role_required",
+    "note_zh": "has anode 残余关系不可丢失，不是一般的材料性质。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 66,
+    "domain": "TG",
+    "stratum": "random_edge:electrode_interface_kinetics",
+    "claim_id": "TG:P0169:r003",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "降低界面电荷转移电阻有直接证据。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 67,
+    "domain": "TG",
+    "stratum": "random_edge:electrode_interface_kinetics",
+    "claim_id": "TG:P0126:r002",
+    "sample_node_id": null,
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "hot anodes 为指定腐蚀体系中的角色，不能泛化为所有 TG。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 68,
+    "domain": "TG",
+    "stratum": "hub_association",
+    "claim_id": "TG:P0144:r007",
+    "sample_node_id": "TG:C1ab2df24c29cda",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "混合热扩散/热电化学体系的总热电势不能自动当纯热电化学贡献。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 69,
+    "domain": "TG",
+    "stratum": "hub_association",
+    "claim_id": "TG:P0165:complete_v1_cr002",
+    "sample_node_id": "TG:Cbbc89789ab0c87",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "unresolved_modal_predicate",
+    "note_zh": "could boost 尚未归一，可能性不能抹去。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 70,
+    "domain": "TG",
+    "stratum": "hub_association",
+    "claim_id": "TG:P0162:complete_v1_cr002",
+    "sample_node_id": "TG:Ceebc832090d2cf",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "反应/输运限制与离子热电势的作者解释有证据。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 71,
+    "domain": "TG",
+    "stratum": "hub_association",
+    "claim_id": "TG:P0258:complete_v1_cr002",
+    "sample_node_id": "TG:C90547a1206e923",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "红氧动力学与离子输运联合限制保留。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 72,
+    "domain": "TG",
+    "stratum": "hub_association",
+    "claim_id": "TG:P0142:r006",
+    "sample_node_id": "TG:C2c9437ff2ff69b",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "13.45 S/m 与离子电导有直接上下文证据。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 73,
+    "domain": "TG",
+    "stratum": "hub_association",
+    "claim_id": "TG:P0200:r004",
+    "sample_node_id": "TG:Cc27f7a9fc68e27",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "108.5 mS/cm 有证据，不能与另一表达数值无单位比较。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 74,
+    "domain": "TG",
+    "stratum": "hub_association",
+    "claim_id": "TG:P0182:complete_v1_cr003",
+    "sample_node_id": "TG:C232137b8c1df70",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "聚合物和热电离子两对象的熵保持复合限定，不擅分。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 75,
+    "domain": "TG",
+    "stratum": "hub_association",
+    "claim_id": "TG:P0192:r003",
+    "sample_node_id": "TG:C5439802a7825d6",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "entropy_quantity_boundary",
+    "note_zh": "整体红氧系统熵变被挂在 unspecified entropy；S 与 ΔS 及对象边界需明确后才能映射。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 76,
+    "domain": "TG",
+    "stratum": "unassociated_expression",
+    "claim_id": "TG:P0161:r002",
+    "sample_node_id": "TG:C03299fb12b2ac3",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "移除温差后，凝胶阻碍输运与浓度平衡的限定需保留。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 77,
+    "domain": "TG",
+    "stratum": "unassociated_expression",
+    "claim_id": "TG:P0263:r001",
+    "sample_node_id": "TG:Cb9e5c80ac4da67",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "人为控制温度建立梯度，未关联不能解释为机制缺失。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 78,
+    "domain": "TG",
+    "stratum": "unassociated_expression",
+    "claim_id": "TG:P0277:r003",
+    "sample_node_id": "TG:C65f3b996c0b556",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "内球氧化还原机制是明确的限定过程，应保留反应类型。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 79,
+    "domain": "TG",
+    "stratum": "unassociated_expression",
+    "claim_id": "TG:P0136:r004",
+    "sample_node_id": "TG:Ca33ee8b3c0c7d9",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "生物相容性是材料选择理由，不能当电化学因果机制。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 80,
+    "domain": "TG",
+    "stratum": "unassociated_expression",
+    "claim_id": "TG:P0231:r005",
+    "sample_node_id": "TG:Cbc0329ab808294",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "unresolved_explicit_decrease",
+    "note_zh": "原文确写 decreases sheet conductance，虽表述值得注意，不能擅改 increases/resistance；仅可归一谓语。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 81,
+    "domain": "TG",
+    "stratum": "unassociated_expression",
+    "claim_id": "TG:P0219:r002",
+    "sample_node_id": "TG:Cc5e92e229ff994",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "conditional_subject_state_required",
+    "note_zh": "when frustrated 是主语受抑的状态条件，不可忽略后理解为迁移率增加引起电荷积累。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 82,
+    "domain": "TG",
+    "stratum": "unassociated_expression",
+    "claim_id": "TG:P0074:complete_v1_cr004",
+    "sample_node_id": "TG:C2552f70fd0019e",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "透气性降低是支持器件设计的关系，不自动升级为核心电化学链。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 83,
+    "domain": "TG",
+    "stratum": "unassociated_expression",
+    "claim_id": "TG:P0204:r002",
+    "sample_node_id": "TG:C4a1c9fa006b5a3",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "与样本 65 同一边；不重复计入独立抽样边。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 84,
+    "domain": "TG",
+    "stratum": "small_component",
+    "claim_id": "TG:P0202:r003",
+    "sample_node_id": "TG:Cf63acc1268ada8",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "近红外吸收是光热辅助属性，孤立不一定是错误。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 85,
+    "domain": "TG",
+    "stratum": "small_component",
+    "claim_id": "TG:P0002:r004",
+    "sample_node_id": "TG:Cd8d9bd2db39d94",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "entropy_quantity_boundary",
+    "note_zh": "联合离子相互作用改变熵变；仅挂 unspecified entropy 不足以承担跨图物理量匹配。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 86,
+    "domain": "TG",
+    "stratum": "small_component",
+    "claim_id": "TG:P0003:r005",
+    "sample_node_id": "TG:C41f806c7e1395b",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": "missing_concept_association",
+    "note_zh": "Fe2+/3+ 浓度增加尚未关联；下降的电子转移电阻关联已保留。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  },
+  {
+    "sample_index": 87,
+    "domain": "TG",
+    "stratum": "small_component",
+    "claim_id": "TG:P0032:complete_v1_cr002",
+    "sample_node_id": "TG:C6a15e2351ac7df",
+    "source_evidence_assessment": "supported_as_qualified_author_statement",
+    "representation_issue": null,
+    "note_zh": "电极反应高可逆性有证据，未关联状态不宜直接并为反应速率。",
+    "evidence_read": [
+      "quote",
+      "context_quotes",
+      "assertion",
+      "modality",
+      "conditions",
+      "joint_factors",
+      "normalization"
+    ],
+    "reviewer": "assistant_evidence_review_not_independent_human_or_fulltext_review"
+  }
+]

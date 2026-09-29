@@ -1,0 +1,153 @@
+[
+  {
+    "domain": "iTE",
+    "kind": "concept_association",
+    "node_id": "iTE:C06735fc5d0e25d",
+    "label": "Electrochemical active surface area",
+    "old": null,
+    "new": "iTE:concept:electroactive_surface_area",
+    "claim_ids": [
+      "iTE:P1188:r006",
+      "iTE:P1188:r007",
+      "iTE:P1188:r008"
+    ],
+    "evidence": [
+      {
+        "claim_id": "iTE:P1188:r006",
+        "quote": "Here, we systematically investigated components of device resistance R, i.e., solute (Rs), charge-transfer (Rct), and diffusion (Rdif) resistances, of LTE composed of 0.8 M Na4[Fe(CN)6]/K3[Fe(CN)6] aqueous electrolyte and graphite-dispersing electrodes. ",
+        "context_quotes": [
+          "R-1ct and Rdif-1 linearly increase with t in the thin t region (t <= 40 mu m) reflecting the increase in electrochemical active surface area (EASA). "
+        ]
+      },
+      {
+        "claim_id": "iTE:P1188:r007",
+        "quote": "Here, we systematically investigated components of device resistance R, i.e., solute (Rs), charge-transfer (Rct), and diffusion (Rdif) resistances, of LTE composed of 0.8 M Na4[Fe(CN)6]/K3[Fe(CN)6] aqueous electrolyte and graphite-dispersing electrodes. ",
+        "context_quotes": [
+          "R-1ct and Rdif-1 linearly increase with t in the thin t region (t <= 40 mu m) reflecting the increase in electrochemical active surface area (EASA). "
+        ]
+      },
+      {
+        "claim_id": "iTE:P1188:r008",
+        "quote": "Here, we systematically investigated components of device resistance R, i.e., solute (Rs), charge-transfer (Rct), and diffusion (Rdif) resistances, of LTE composed of 0.8 M Na4[Fe(CN)6]/K3[Fe(CN)6] aqueous electrolyte and graphite-dispersing electrodes. ",
+        "context_quotes": [
+          "R-1ct and Rdif-1 linearly increase with t in the thin t region (t <= 40 mu m) reflecting the increase in electrochemical active surface area (EASA). "
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "TG",
+    "kind": "concept_association",
+    "node_id": "TG:C29a2e701365286",
+    "label": "Large electrochemically active surface area",
+    "old": "TG:concept:electrode_surface",
+    "new": "TG:concept:electroactive_surface_area",
+    "claim_ids": [
+      "TG:P0154:r004"
+    ],
+    "evidence": [
+      {
+        "claim_id": "TG:P0154:r004",
+        "quote": "The ternary composite electrodes form a porous layered structure with a large electrochemical-active surface area. ",
+        "context_quotes": []
+      }
+    ]
+  },
+  {
+    "domain": "TG",
+    "kind": "concept_association",
+    "node_id": "TG:C3069375b0eb2c6",
+    "label": "Electrochemically active surface area of CNT electrodes",
+    "old": "TG:concept:electrode_surface",
+    "new": "TG:concept:electroactive_surface_area",
+    "claim_ids": [
+      "TG:P0316:r002",
+      "TG:P0316:r003"
+    ],
+    "evidence": [
+      {
+        "claim_id": "TG:P0316:r002",
+        "quote": "CNT buckypaper electrodes doped with nitrogen and boron were characterized using cyclic voltammetry, impedance spectroscopy, and TEC test with potassium ferri/ferrocyanide electrolyte. ",
+        "context_quotes": [
+          "Both doping states increased the electrochemically active surface area of CNT electrodes. "
+        ]
+      },
+      {
+        "claim_id": "TG:P0316:r003",
+        "quote": "CNT buckypaper electrodes doped with nitrogen and boron were characterized using cyclic voltammetry, impedance spectroscopy, and TEC test with potassium ferri/ferrocyanide electrolyte. ",
+        "context_quotes": [
+          "Both doping states increased the electrochemically active surface area of CNT electrodes. "
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "TG",
+    "kind": "concept_association",
+    "node_id": "TG:Ca963e258eaff48",
+    "label": "Electrochemically active surface area",
+    "old": "TG:concept:electrode_surface",
+    "new": "TG:concept:electroactive_surface_area",
+    "claim_ids": [
+      "TG:P0135:r003"
+    ],
+    "evidence": [
+      {
+        "claim_id": "TG:P0135:r003",
+        "quote": "In this study, a nanocomposite electrode featuring Ti3C2T x with hollow microsphere structures is rationally designed. ",
+        "context_quotes": [
+          "This design addresses the restacking issue inherent in MXene nanosheets, increases the electrochemically active surface area, and modifies the original MXene surfaces with oxygen terminations, leading to improved redox kinetics at the electrode-electrolyte interface, particularly in n-type TECs employing Fe2+/3+ redox ions. "
+        ]
+      }
+    ]
+  },
+  {
+    "domain": "TG",
+    "kind": "predicate_normalization",
+    "claim_id": "TG:P0231:r005",
+    "old": {
+      "predicate_original": "remarkably_decreases",
+      "relation": "verbatim",
+      "relation_family": "unresolved",
+      "effect_direction": "unspecified",
+      "negated": false,
+      "lexical_negation": false,
+      "complex_negation_retained": false,
+      "modal_words": [],
+      "epistemic_wrappers": [],
+      "lexical_modifiers": [],
+      "joint": false,
+      "method_use": false,
+      "residual_predicate_text": "remarkably decreases",
+      "status": "verbatim_retained",
+      "composition": null,
+      "net_direction_requires_state_interpretation": false,
+      "assertion": "author_claim",
+      "modality": "unspecified"
+    },
+    "new": {
+      "predicate_original": "remarkably_decreases",
+      "relation": "decrease",
+      "relation_family": "quantitative_effect",
+      "effect_direction": "decrease",
+      "negated": false,
+      "lexical_negation": false,
+      "complex_negation_retained": false,
+      "modal_words": [],
+      "epistemic_wrappers": [],
+      "lexical_modifiers": [
+        "remarkably"
+      ],
+      "joint": false,
+      "method_use": false,
+      "residual_predicate_text": "",
+      "status": "normalized",
+      "composition": null,
+      "net_direction_requires_state_interpretation": false,
+      "assertion": "author_claim",
+      "modality": "unspecified"
+    },
+    "quote": "The SWNT coating not only decreases the sheet conductance of the textile remarkably but also provides the number of available reaction sites for thermogalvanic conversion, resulting in improving electrical outputs. ",
+    "reason": "Explicit decrease in original wording; do not replace conductance with resistance or reverse the reported sign."
+  }
+]

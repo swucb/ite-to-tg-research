@@ -1,0 +1,13 @@
+{
+  "version": "v3_readiness_patch_20260929",
+  "readiness": "NOT_ACCEPTED_FOR_FORMAL_CROSSMAP",
+  "inputs": {
+    "kg_normalization_v3_20260926/iTE/graph.json": "387158a99e837d4d5620c7e123c1d77493d522da4af2d185f1d7516a93f58809",
+    "kg_normalization_v3_20260926/TG/graph.json": "ad7e0d8b41b119bcafbcfba1baa8e03f574fdd0d4b920578190edfed375b5fca"
+  },
+  "outputs": {
+    "kg_crossmap_readiness_20260929/repair_snapshot/iTE/graph.json": "b47c7e75bb99dbf33619bd92368d01fc6808a9ab822fed02a4b7cf0382daa8e4",
+    "kg_crossmap_readiness_20260929/repair_snapshot/TG/graph.json": "6e6cf285452b79f9c38273641b640df843052c5d7c308547625a6b19727290bc"
+  },
+  "repair_script_sha256": "b44ad485f3008635dcd013556ceb1922dd078cc5c5e876ba82886e83edb408ca"
+}

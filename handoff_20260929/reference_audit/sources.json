@@ -1,0 +1,61 @@
+{
+  "checked": "2026-09-29",
+  "files": [
+    {
+      "repository": "materialdigital/DigiChrom-PlatOn-Ontology",
+      "commit": "ca7d6e1c61fade32640627388201fe36cc5ce414",
+      "path": "Mapping/LLM_Ontology_Mapping_Embeddings_WeightAnpassung.py",
+      "blob_sha": "14338193f2a1c9a9299f0bff93418bc3db117518",
+      "url": "https://github.com/materialdigital/DigiChrom-PlatOn-Ontology/blob/ca7d6e1c61fade32640627388201fe36cc5ce414/Mapping/LLM_Ontology_Mapping_Embeddings_WeightAnpassung.py",
+      "inspection": "static code inspection; upstream pipeline not executed"
+    },
+    {
+      "repository": "lamm-mit/GraphAgents",
+      "commit": "d5b62025de17cc64c1e4741b564164550416ec20",
+      "path": "README.md",
+      "blob_sha": "747f509d27eb331f7c9371ca4d77bcb9cf2ee1e7",
+      "url": "https://github.com/lamm-mit/GraphAgents/blob/d5b62025de17cc64c1e4741b564164550416ec20/README.md",
+      "inspection": "static code inspection; upstream pipeline not executed"
+    },
+    {
+      "repository": "lamm-mit/GraphAgents",
+      "commit": "d5b62025de17cc64c1e4741b564164550416ec20",
+      "path": "requirements.txt",
+      "blob_sha": "e0361fb907e42e6ba61ed3ed818a16b50c59a720",
+      "url": "https://github.com/lamm-mit/GraphAgents/blob/d5b62025de17cc64c1e4741b564164550416ec20/requirements.txt",
+      "inspection": "static code inspection; upstream pipeline not executed"
+    },
+    {
+      "repository": "lamm-mit/GraphAgents",
+      "commit": "d5b62025de17cc64c1e4741b564164550416ec20",
+      "path": "Notebooks/graphAgents.ipynb",
+      "blob_sha": "37b667da61dda183a4021f285add910c20bc0134",
+      "url": "https://github.com/lamm-mit/GraphAgents/blob/d5b62025de17cc64c1e4741b564164550416ec20/Notebooks/graphAgents.ipynb",
+      "inspection": "static code inspection; upstream pipeline not executed"
+    },
+    {
+      "repository": "lamm-mit/GraphAgents",
+      "commit": "d5b62025de17cc64c1e4741b564164550416ec20",
+      "path": "GraphReasoning/graph_tools.py",
+      "blob_sha": "4908a19e3b7d70ac4393edb5c7c7d47d055f0de3",
+      "url": "https://github.com/lamm-mit/GraphAgents/blob/d5b62025de17cc64c1e4741b564164550416ec20/GraphReasoning/graph_tools.py",
+      "inspection": "static code inspection; upstream pipeline not executed"
+    },
+    {
+      "repository": "MasterAI-EAM/Material-Knowledge-Graph",
+      "commit": "3c02091890a1a3d9e1e871b9651b8b6b1acf4bb4",
+      "path": "README.md",
+      "blob_sha": "47019ebf57aab551259716435cb576885b36994b",
+      "url": "https://github.com/MasterAI-EAM/Material-Knowledge-Graph/blob/3c02091890a1a3d9e1e871b9651b8b6b1acf4bb4/README.md",
+      "inspection": "static code inspection; upstream pipeline not executed"
+    },
+    {
+      "repository": "MasterAI-EAM/Material-Knowledge-Graph",
+      "commit": "3c02091890a1a3d9e1e871b9651b8b6b1acf4bb4",
+      "path": "inference_KG.py",
+      "blob_sha": "b7a78855f673f38996f473aa6dddb98aa88ba8d4",
+      "url": "https://github.com/MasterAI-EAM/Material-Knowledge-Graph/blob/3c02091890a1a3d9e1e871b9651b8b6b1acf4bb4/inference_KG.py",
+      "inspection": "static code inspection; upstream pipeline not executed"
+    }
+  ]
+}

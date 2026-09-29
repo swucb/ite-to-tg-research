@@ -1,0 +1,6079 @@
+{
+  "iTE": {
+    "papers": 1644,
+    "papers_with_accepted_edges": 1632,
+    "papers_with_core_edges": 1573,
+    "accepted_edges": 20699,
+    "source_expressions": 25203,
+    "concept_associations": 4828,
+    "core_edges": 12804,
+    "core_expressions": 15799,
+    "core_associated_expressions": 3623,
+    "core_endpoint_association_counts": {
+      "1": 4915,
+      "2": 811,
+      "0": 7078
+    },
+    "core_roles": {
+      "quantity": {
+        "total": 4196,
+        "associated": 2177
+      },
+      "design_strategy": {
+        "total": 907,
+        "associated": 125
+      },
+      "mechanism_process": {
+        "total": 1643,
+        "associated": 222
+      },
+      "descriptor": {
+        "total": 1046,
+        "associated": 122
+      },
+      "material_entity": {
+        "total": 2966,
+        "associated": 8
+      },
+      "state_structure": {
+        "total": 2352,
+        "associated": 169
+      },
+      "condition": {
+        "total": 627,
+        "associated": 116
+      },
+      "interaction": {
+        "total": 761,
+        "associated": 94
+      },
+      "performance_function": {
+        "total": 1445,
+        "associated": 674
+      },
+      "application": {
+        "total": 8,
+        "associated": 1
+      }
+    },
+    "core_relation_families": {
+      "property": 4424,
+      "unresolved": 1716,
+      "improvement": 436,
+      "production": 366,
+      "formation": 103,
+      "driving": 47,
+      "enabling": 333,
+      "composition": 237,
+      "causal_effect": 863,
+      "quantitative_effect": 964,
+      "achievement": 432,
+      "functional_role": 48,
+      "facilitation": 138,
+      "provision": 162,
+      "support": 81,
+      "explanation": 243,
+      "mediation": 26,
+      "limitation": 37,
+      "inhibition": 86,
+      "undergoing": 61,
+      "association": 343,
+      "cooccurrence": 47,
+      "influence": 477,
+      "strengthening": 11,
+      "basis": 7,
+      "use": 21,
+      "dependence": 118,
+      "conversion": 11,
+      "causal_attribution": 26,
+      "contribution": 82,
+      "control": 123,
+      "introduction": 35,
+      "proposed_application": 5,
+      "description": 95,
+      "consistency": 29,
+      "combination": 25,
+      "requirement": 19,
+      "synthesis": 5,
+      "stabilization": 14,
+      "maintenance": 64,
+      "weakening": 17,
+      "correlation": 33,
+      "comparison": 39,
+      "indication": 133,
+      "correspondence": 22,
+      "characterization": 5,
+      "covariation": 20,
+      "classification": 5,
+      "dominance": 26,
+      "representation": 7,
+      "prevention": 8,
+      "equality": 8,
+      "reproduction": 3,
+      "suggestion": 28,
+      "prediction": 11,
+      "measurement": 3,
+      "demonstration": 3,
+      "quantification": 4,
+      "involvement": 14,
+      "satisfaction": 4,
+      "occupancy": 21,
+      "confirmation": 15,
+      "investigation": 1,
+      "evaluation": 2,
+      "agreement": 3,
+      "modeling": 1,
+      "calculation": 3,
+      "analysis": 4,
+      "absence_of_evidence": 1
+    },
+    "core_unresolved_predicates": [
+      [
+        "crystallizes_in",
+        16
+      ],
+      [
+        "features",
+        10
+      ],
+      [
+        "underlies",
+        10
+      ],
+      [
+        "establishes",
+        10
+      ],
+      [
+        "develops",
+        8
+      ],
+      [
+        "can_tailor",
+        8
+      ],
+      [
+        "is characterized by",
+        7
+      ],
+      [
+        "adopts",
+        7
+      ],
+      [
+        "follows",
+        7
+      ],
+      [
+        "crystallizes in",
+        6
+      ],
+      [
+        "is_a_parameter_of",
+        6
+      ],
+      [
+        "participates_in",
+        5
+      ],
+      [
+        "coincides_with",
+        5
+      ],
+      [
+        "fills",
+        5
+      ],
+      [
+        "approaches",
+        5
+      ],
+      [
+        "is suggested to exhibit",
+        5
+      ],
+      [
+        "implies",
+        5
+      ],
+      [
+        "hosts",
+        5
+      ],
+      [
+        "is a",
+        5
+      ],
+      [
+        "belongs_to",
+        5
+      ],
+      [
+        "is_calculated_in_relation_to",
+        5
+      ],
+      [
+        "interacts with",
+        4
+      ],
+      [
+        "makes_challenging",
+        4
+      ],
+      [
+        "links",
+        4
+      ],
+      [
+        "accelerates",
+        4
+      ],
+      [
+        "is_coupled_to",
+        4
+      ],
+      [
+        "activates",
+        4
+      ],
+      [
+        "maximizes",
+        4
+      ],
+      [
+        "exerts",
+        4
+      ],
+      [
+        "is_weaker_than",
+        4
+      ],
+      [
+        "identified_as_characteristic_of",
+        4
+      ],
+      [
+        "is_suggested_to_be",
+        4
+      ],
+      [
+        "is_described_as",
+        4
+      ],
+      [
+        "gives",
+        4
+      ],
+      [
+        "is similar to",
+        4
+      ],
+      [
+        "is suggested to have",
+        4
+      ],
+      [
+        "is_stronger_than",
+        4
+      ],
+      [
+        "predominantly_contributes_to",
+        4
+      ],
+      [
+        "performs",
+        4
+      ],
+      [
+        "plays an important role in",
+        4
+      ],
+      [
+        "crystallize_in",
+        4
+      ],
+      [
+        "is_followed_by",
+        4
+      ],
+      [
+        "is located in",
+        4
+      ],
+      [
+        "transitions_to",
+        4
+      ],
+      [
+        "may_be_related_to",
+        4
+      ],
+      [
+        "jointly_aims_to_improve",
+        3
+      ],
+      [
+        "is described as",
+        3
+      ],
+      [
+        "shifts",
+        3
+      ],
+      [
+        "feature",
+        3
+      ],
+      [
+        "intended_to_improve",
+        3
+      ],
+      [
+        "occurs at",
+        3
+      ],
+      [
+        "initiates",
+        3
+      ],
+      [
+        "jointly expands",
+        3
+      ],
+      [
+        "is comparable to",
+        3
+      ],
+      [
+        "occurs_in",
+        3
+      ],
+      [
+        "ensures",
+        3
+      ],
+      [
+        "contributes_more_to_conduction_band_bottom_than",
+        3
+      ],
+      [
+        "is_almost_consistent_with",
+        3
+      ],
+      [
+        "adjusts",
+        3
+      ],
+      [
+        "widens",
+        3
+      ],
+      [
+        "expands",
+        3
+      ],
+      [
+        "is followed by",
+        3
+      ],
+      [
+        "serves in",
+        3
+      ],
+      [
+        "is_condition_for",
+        3
+      ],
+      [
+        "is_manifested_by",
+        3
+      ],
+      [
+        "is_deposited_on",
+        3
+      ],
+      [
+        "is suggested to reduce",
+        3
+      ],
+      [
+        "is_suggested_to_induce",
+        3
+      ],
+      [
+        "acts through",
+        3
+      ],
+      [
+        "tends_to_induce",
+        3
+      ],
+      [
+        "is_strategy_for_boosting",
+        3
+      ],
+      [
+        "systematically increases",
+        3
+      ],
+      [
+        "tailors",
+        3
+      ],
+      [
+        "broadens",
+        3
+      ],
+      [
+        "jointly_underpins",
+        3
+      ],
+      [
+        "is_independent_of",
+        3
+      ],
+      [
+        "varies",
+        3
+      ],
+      [
+        "appears_to_have",
+        3
+      ],
+      [
+        "is assigned to",
+        3
+      ],
+      [
+        "preferentially_occupies",
+        3
+      ],
+      [
+        "constructed_with",
+        3
+      ],
+      [
+        "eliminates",
+        3
+      ],
+      [
+        "occurs_at_temperature_below",
+        3
+      ],
+      [
+        "leaves_nearly_unchanged",
+        3
+      ],
+      [
+        "is_interpreted_in_terms_of",
+        3
+      ],
+      [
+        "transforms_to",
+        3
+      ],
+      [
+        "narrows",
+        3
+      ],
+      [
+        "is_close_to",
+        3
+      ],
+      [
+        "plays_significant_role_in",
+        3
+      ],
+      [
+        "negatively_correlates_with",
+        3
+      ],
+      [
+        "preferentially occupies",
+        3
+      ],
+      [
+        "is attributed jointly to",
+        3
+      ],
+      [
+        "is_more_favorable_for",
+        3
+      ],
+      [
+        "negatively affects",
+        2
+      ],
+      [
+        "is_compatible_with",
+        2
+      ],
+      [
+        "relies_on",
+        2
+      ],
+      [
+        "disrupt",
+        2
+      ],
+      [
+        "disrupts",
+        2
+      ],
+      [
+        "jointly_aims_to_enhance",
+        2
+      ],
+      [
+        "jointly_aims_to_enable",
+        2
+      ],
+      [
+        "further improves",
+        2
+      ],
+      [
+        "bears",
+        2
+      ],
+      [
+        "attracts",
+        2
+      ],
+      [
+        "is an important parameter for",
+        2
+      ],
+      [
+        "is_intended_to_augment",
+        2
+      ],
+      [
+        "aims to achieve",
+        2
+      ],
+      [
+        "when_augmented_improves",
+        2
+      ],
+      [
+        "is_comparable_to",
+        2
+      ],
+      [
+        "is coupled with",
+        2
+      ],
+      [
+        "interacts_with",
+        2
+      ],
+      [
+        "fine-tunes",
+        2
+      ],
+      [
+        "shifts_to_higher_values",
+        2
+      ],
+      [
+        "likely_causes",
+        2
+      ],
+      [
+        "occurs_after",
+        2
+      ],
+      [
+        "can transport across electrodes into",
+        2
+      ],
+      [
+        "impairs",
+        2
+      ],
+      [
+        "occurs_through",
+        2
+      ],
+      [
+        "differs from",
+        2
+      ],
+      [
+        "suffer from",
+        2
+      ],
+      [
+        "is_important_factor_for",
+        2
+      ],
+      [
+        "helps achieve",
+        2
+      ],
+      [
+        "complicates",
+        2
+      ],
+      [
+        "mitigates",
+        2
+      ],
+      [
+        "is the main origin of",
+        2
+      ],
+      [
+        "adheres to",
+        2
+      ],
+      [
+        "occurs_within",
+        2
+      ],
+      [
+        "are_deposited_on",
+        2
+      ],
+      [
+        "is supported on",
+        2
+      ],
+      [
+        "is_characterized_as",
+        2
+      ],
+      [
+        "is proposed to obtain",
+        2
+      ],
+      [
+        "can retard",
+        2
+      ],
+      [
+        "plays a dominant role in regulating",
+        2
+      ],
+      [
+        "usually results in",
+        2
+      ],
+      [
+        "decisively modulates",
+        2
+      ],
+      [
+        "occurs along",
+        2
+      ],
+      [
+        "originate_mainly_from",
+        2
+      ],
+      [
+        "can_contribute",
+        2
+      ],
+      [
+        "competes with",
+        2
+      ],
+      [
+        "jointly_underlies",
+        2
+      ],
+      [
+        "anticipated_to_produce",
+        2
+      ],
+      [
+        "fuels",
+        2
+      ],
+      [
+        "first_increases_then_decreases",
+        2
+      ],
+      [
+        "is redefined using quantities in",
+        2
+      ],
+      [
+        "is believed to be",
+        2
+      ],
+      [
+        "jointly_implies",
+        2
+      ],
+      [
+        "intensifies",
+        2
+      ],
+      [
+        "makes_material_exhibit",
+        2
+      ],
+      [
+        "is_nearly_equal_to",
+        2
+      ],
+      [
+        "are_highly_sensitive_to",
+        2
+      ],
+      [
+        "is_closely_related_to",
+        2
+      ],
+      [
+        "is reflected in",
+        2
+      ],
+      [
+        "endows argyrodites with",
+        2
+      ],
+      [
+        "lacks",
+        2
+      ],
+      [
+        "corroborates",
+        2
+      ],
+      [
+        "steadily_increases",
+        2
+      ],
+      [
+        "is_described_as_function_of",
+        2
+      ],
+      [
+        "accommodates",
+        2
+      ],
+      [
+        "scatter phonons through",
+        2
+      ],
+      [
+        "is suggested to result in",
+        2
+      ],
+      [
+        "constitutes",
+        2
+      ],
+      [
+        "jointly plays an important role in",
+        2
+      ],
+      [
+        "leave_relatively_constant",
+        2
+      ],
+      [
+        "is_more_rigid_than",
+        2
+      ],
+      [
+        "is_main_origin_of",
+        2
+      ],
+      [
+        "is_computed_as_function_of",
+        2
+      ],
+      [
+        "impacts",
+        2
+      ],
+      [
+        "is_described_as_close_to",
+        2
+      ],
+      [
+        "transforms to",
+        2
+      ],
+      [
+        "varies systematically with",
+        2
+      ],
+      [
+        "degrades",
+        2
+      ],
+      [
+        "remains in",
+        2
+      ],
+      [
+        "substitutes for",
+        2
+      ],
+      [
+        "is an approach to enhancing",
+        2
+      ],
+      [
+        "is_nearly_independent_of",
+        2
+      ],
+      [
+        "is incorporated into",
+        2
+      ],
+      [
+        "is necessary for attaining",
+        2
+      ],
+      [
+        "positively_correlates_with",
+        2
+      ],
+      [
+        "differs_from",
+        2
+      ],
+      [
+        "coordinately_regulates",
+        2
+      ],
+      [
+        "transforms_into",
+        2
+      ],
+      [
+        "dynamically_modulates",
+        2
+      ],
+      [
+        "interpreted_as_explanation_for",
+        2
+      ],
+      [
+        "is investigated to improve",
+        2
+      ],
+      [
+        "jointly with ionic Seebeck coefficient results in",
+        2
+      ],
+      [
+        "is identified as having",
+        2
+      ],
+      [
+        "occurs on",
+        2
+      ],
+      [
+        "follows_similar_trend_to",
+        2
+      ],
+      [
+        "varies_inversely_with",
+        2
+      ],
+      [
+        "is_thermodynamically_stable",
+        2
+      ],
+      [
+        "nearly_eliminates",
+        2
+      ],
+      [
+        "is_in_contact_with",
+        2
+      ],
+      [
+        "restrains",
+        2
+      ],
+      [
+        "is_characterized_by",
+        2
+      ],
+      [
+        "differentially_affects",
+        2
+      ],
+      [
+        "is_isostructural_with",
+        2
+      ],
+      [
+        "is_coupled_with",
+        2
+      ],
+      [
+        "joint tuning preserves",
+        2
+      ],
+      [
+        "makes significantly different",
+        2
+      ],
+      [
+        "host",
+        2
+      ],
+      [
+        "is presented as explaining",
+        2
+      ],
+      [
+        "reported_to_have",
+        2
+      ],
+      [
+        "remains_similar_across",
+        2
+      ],
+      [
+        "is evidenced by",
+        2
+      ],
+      [
+        "is_at_origin_of",
+        2
+      ],
+      [
+        "delays",
+        2
+      ],
+      [
+        "carries",
+        2
+      ],
+      [
+        "is proposed to travel along",
+        2
+      ],
+      [
+        "modification_impacts",
+        2
+      ],
+      [
+        "minimizes",
+        2
+      ],
+      [
+        "marks",
+        2
+      ],
+      [
+        "differs_significantly_from",
+        2
+      ],
+      [
+        "are_used_to_interpret",
+        2
+      ],
+      [
+        "are_decoupled_from",
+        2
+      ],
+      [
+        "fixes",
+        2
+      ],
+      [
+        "contributes_negligibly_to",
+        2
+      ],
+      [
+        "substitutes_at",
+        2
+      ],
+      [
+        "exemplifies",
+        2
+      ],
+      [
+        "may_be_related_to_enhancement_of",
+        2
+      ],
+      [
+        "is the only modification exhibiting",
+        2
+      ],
+      [
+        "differ in",
+        2
+      ],
+      [
+        "are investigated as functions of",
+        2
+      ],
+      [
+        "may_adjust",
+        2
+      ],
+      [
+        "serves",
+        2
+      ],
+      [
+        "is_designed_to_ensure",
+        2
+      ],
+      [
+        "are important for",
+        2
+      ],
+      [
+        "differs distinctly from",
+        2
+      ],
+      [
+        "is measured as a function of",
+        2
+      ],
+      [
+        "is proposed as a condition for achieving",
+        2
+      ],
+      [
+        "is posited as a dominant factor in",
+        2
+      ],
+      [
+        "jointly_predominates_in_determining",
+        2
+      ],
+      [
+        "is suggested to be necessary for",
+        2
+      ],
+      [
+        "imposes",
+        2
+      ],
+      [
+        "is formed from",
+        2
+      ],
+      [
+        "houses",
+        2
+      ],
+      [
+        "joint_tuning_modifies",
+        2
+      ],
+      [
+        "lies_in",
+        2
+      ],
+      [
+        "is a more effective p-type dopant than",
+        2
+      ],
+      [
+        "expands_equilibrium_volume_to",
+        2
+      ],
+      [
+        "probably_causes",
+        2
+      ],
+      [
+        "is_isostructural_to",
+        2
+      ],
+      [
+        "is built from",
+        2
+      ],
+      [
+        "conducts_via",
+        2
+      ],
+      [
+        "make the major contribution to",
+        2
+      ],
+      [
+        "are determined as functions of",
+        2
+      ],
+      [
+        "is directly coupled to",
+        2
+      ],
+      [
+        "proceeds through",
+        2
+      ],
+      [
+        "is suggested to contain",
+        2
+      ],
+      [
+        "are described as having",
+        2
+      ],
+      [
+        "is the variable for evaluation of",
+        2
+      ],
+      [
+        "conducts heat through",
+        2
+      ],
+      [
+        "is a chemical condition for",
+        2
+      ],
+      [
+        "resembles",
+        2
+      ],
+      [
+        "is a key factor for",
+        2
+      ],
+      [
+        "through_antibonding_produces",
+        2
+      ],
+      [
+        "is described in terms of",
+        2
+      ],
+      [
+        "assumes",
+        2
+      ],
+      [
+        "proposed_as_origin_of",
+        2
+      ],
+      [
+        "is_used_to_obtain",
+        2
+      ],
+      [
+        "is_described_by",
+        2
+      ],
+      [
+        "is_positively_associated_with",
+        2
+      ],
+      [
+        "is_manifested_in",
+        2
+      ],
+      [
+        "is_location_of_maximum",
+        2
+      ],
+      [
+        "are_of_pivotal_importance_for",
+        2
+      ],
+      [
+        "is interpreted to indicate",
+        2
+      ],
+      [
+        "is interpreted to have",
+        2
+      ],
+      [
+        "believed_to_cause",
+        2
+      ],
+      [
+        "independently_contributes_to",
+        2
+      ],
+      [
+        "follows_trend_of",
+        2
+      ],
+      [
+        "evidences",
+        2
+      ],
+      [
+        "interacts hydrophobically with",
+        1
+      ],
+      [
+        "is evaluated for use as",
+        1
+      ],
+      [
+        "is_vital_to_achieving",
+        1
+      ],
+      [
+        "further optimizes",
+        1
+      ],
+      [
+        "exploits",
+        1
+      ],
+      [
+        "can perform",
+        1
+      ],
+      [
+        "can_travel_across",
+        1
+      ],
+      [
+        "can_enter",
+        1
+      ],
+      [
+        "is attached to",
+        1
+      ],
+      [
+        "points toward",
+        1
+      ],
+      [
+        "can be regarded as",
+        1
+      ],
+      [
+        "is intercalated into",
+        1
+      ],
+      [
+        "is proposed to accelerate",
+        1
+      ],
+      [
+        "can transport across",
+        1
+      ],
+      [
+        "plays a key role in obtaining",
+        1
+      ],
+      [
+        "solely_determine",
+        1
+      ],
+      [
+        "shares_temperature_dependence_with",
+        1
+      ],
+      [
+        "is_converted_to",
+        1
+      ],
+      [
+        "constructively_interact_with",
+        1
+      ],
+      [
+        "when_amplified_enhances",
+        1
+      ],
+      [
+        "compromises",
+        1
+      ],
+      [
+        "is_almost_twice",
+        1
+      ],
+      [
+        "is_reported_highest_among",
+        1
+      ],
+      [
+        "binds strongly to",
+        1
+      ],
+      [
+        "cannot pass",
+        1
+      ],
+      [
+        "further elevates thermopower magnitude to",
+        1
+      ],
+      [
+        "partly neutralizes",
+        1
+      ],
+      [
+        "fail to differentiate",
+        1
+      ],
+      [
+        "tends to yield",
+        1
+      ],
+      [
+        "is analyzed for its influence on",
+        1
+      ],
+      [
+        "exploit",
+        1
+      ],
+      [
+        "is used to mitigate",
+        1
+      ],
+      [
+        "is manifested in",
+        1
+      ],
+      [
+        "readily_undergoes",
+        1
+      ],
+      [
+        "usually_exhibit_higher_thermophoretic_mobility_than",
+        1
+      ],
+      [
+        "jointly_switches_Seebeck_response_to",
+        1
+      ],
+      [
+        "are_capable_of",
+        1
+      ],
+      [
+        "enhancement_improves",
+        1
+      ],
+      [
+        "endows_elastomer_with",
+        1
+      ],
+      [
+        "is_preferentially_confined_in",
+        1
+      ],
+      [
+        "crosslinks",
+        1
+      ],
+      [
+        "resolves",
+        1
+      ],
+      [
+        "selectively_inhibits",
+        1
+      ],
+      [
+        "sharply_increases",
+        1
+      ],
+      [
+        "can_transport_across",
+        1
+      ],
+      [
+        "enhancement_enables",
+        1
+      ],
+      [
+        "jointly_gives",
+        1
+      ],
+      [
+        "joint_modulation_optimizes",
+        1
+      ],
+      [
+        "are_retained_as",
+        1
+      ],
+      [
+        "intended_to_enhance",
+        1
+      ],
+      [
+        "hindrance_reduces",
+        1
+      ],
+      [
+        "opposite_to",
+        1
+      ],
+      [
+        "appears_to_increase",
+        1
+      ],
+      [
+        "operates_via",
+        1
+      ],
+      [
+        "rely_on",
+        1
+      ],
+      [
+        "plays a key role in enhancing",
+        1
+      ],
+      [
+        "reversibly and precisely modulates",
+        1
+      ],
+      [
+        "is ascribed to",
+        1
+      ],
+      [
+        "appear_beneficial_for",
+        1
+      ],
+      [
+        "further_enhances",
+        1
+      ],
+      [
+        "is_more_than_20_times_higher_than",
+        1
+      ],
+      [
+        "operates_on_principle_of",
+        1
+      ],
+      [
+        "are_intended_to_guide",
+        1
+      ],
+      [
+        "is_proposed_to_decouple",
+        1
+      ],
+      [
+        "endows cement with",
+        1
+      ],
+      [
+        "harnesses",
+        1
+      ],
+      [
+        "when impaired causes",
+        1
+      ],
+      [
+        "addresses",
+        1
+      ],
+      [
+        "varies_systematically_with",
+        1
+      ],
+      [
+        "marks conditions for",
+        1
+      ],
+      [
+        "when inhibited results in",
+        1
+      ],
+      [
+        "is superior to",
+        1
+      ],
+      [
+        "when reduced improves",
+        1
+      ],
+      [
+        "is inferred to enhance",
+        1
+      ],
+      [
+        "is applicable to",
+        1
+      ],
+      [
+        "aims_to_enhance",
+        1
+      ],
+      [
+        "is_considered_to_enhance",
+        1
+      ],
+      [
+        "attenuates",
+        1
+      ],
+      [
+        "selectively_enhances",
+        1
+      ],
+      [
+        "are_often_limited_by",
+        1
+      ],
+      [
+        "leaves_nearly_constant",
+        1
+      ],
+      [
+        "is_uniformly_distributed_within",
+        1
+      ],
+      [
+        "are located within",
+        1
+      ],
+      [
+        "overcomes",
+        1
+      ],
+      [
+        "wrap around",
+        1
+      ],
+      [
+        "is correlated in the analysis with",
+        1
+      ],
+      [
+        "is attributed as the cause of",
+        1
+      ],
+      [
+        "is invoked to explain",
+        1
+      ],
+      [
+        "jointly_retards",
+        1
+      ],
+      [
+        "when_retarded_increases",
+        1
+      ],
+      [
+        "when_enhanced_increases",
+        1
+      ],
+      [
+        "when_increased_accounts_for",
+        1
+      ],
+      [
+        "can_bypass",
+        1
+      ],
+      [
+        "is a representative of",
+        1
+      ],
+      [
+        "is located within",
+        1
+      ],
+      [
+        "are selectively immobilized at",
+        1
+      ],
+      [
+        "jointly establishes",
+        1
+      ],
+      [
+        "usually exhibit",
+        1
+      ],
+      [
+        "is a crucial factor for",
+        1
+      ],
+      [
+        "confines",
+        1
+      ],
+      [
+        "is reported as",
+        1
+      ],
+      [
+        "may boost when improved",
+        1
+      ],
+      [
+        "usually causes",
+        1
+      ],
+      [
+        "varies over a broad range",
+        1
+      ],
+      [
+        "interacts ionically with",
+        1
+      ],
+      [
+        "entails",
+        1
+      ],
+      [
+        "is_crucial_to_control_sign_and_magnitude_of",
+        1
+      ],
+      [
+        "behaves_as",
+        1
+      ],
+      [
+        "improvement_enhances",
+        1
+      ],
+      [
+        "immobilizes",
+        1
+      ],
+      [
+        "modification_facilitates",
+        1
+      ],
+      [
+        "modification_blocks",
+        1
+      ],
+      [
+        "modification_produces",
+        1
+      ],
+      [
+        "reduction_significantly_reduces",
+        1
+      ],
+      [
+        "is_layered_on",
+        1
+      ],
+      [
+        "releases",
+        1
+      ],
+      [
+        "remarkably_affects",
+        1
+      ],
+      [
+        "is_interdependent_with",
+        1
+      ],
+      [
+        "is_main_contribution_to_enhancement_of",
+        1
+      ],
+      [
+        "coexists_with",
+        1
+      ],
+      [
+        "is_a_key_requirement_for",
+        1
+      ],
+      [
+        "electrostatically_controls",
+        1
+      ],
+      [
+        "decouples",
+        1
+      ],
+      [
+        "is_a_main_contributor_to",
+        1
+      ],
+      [
+        "continues_to_increase",
+        1
+      ],
+      [
+        "primarily interacts with",
+        1
+      ],
+      [
+        "is envisioned as purely",
+        1
+      ],
+      [
+        "is independent of",
+        1
+      ],
+      [
+        "is followed by significant reduction to",
+        1
+      ],
+      [
+        "exists in liquid-like state inside",
+        1
+      ],
+      [
+        "continuously and reversibly controls",
+        1
+      ],
+      [
+        "manipulates",
+        1
+      ],
+      [
+        "is an",
+        1
+      ],
+      [
+        "is an alternative explanation for",
+        1
+      ],
+      [
+        "jointly interprets",
+        1
+      ],
+      [
+        "is the basis for",
+        1
+      ],
+      [
+        "is surrounded by",
+        1
+      ],
+      [
+        "weakening leads to",
+        1
+      ],
+      [
+        "can be chemically mutated to form",
+        1
+      ],
+      [
+        "develops_on",
+        1
+      ],
+      [
+        "is_orders_of_magnitude_shorter_than",
+        1
+      ],
+      [
+        "sufficiently_explain",
+        1
+      ],
+      [
+        "should_be_considered_in_explaining",
+        1
+      ],
+      [
+        "intended_to_compensate",
+        1
+      ],
+      [
+        "is_appropriate_for",
+        1
+      ],
+      [
+        "are_comparable_to_or_larger_than",
+        1
+      ],
+      [
+        "persists_at",
+        1
+      ],
+      [
+        "critically influences",
+        1
+      ],
+      [
+        "is engineered with",
+        1
+      ],
+      [
+        "is an approach to enhance",
+        1
+      ],
+      [
+        "restores by 37%",
+        1
+      ],
+      [
+        "restores by 157%",
+        1
+      ],
+      [
+        "functions with",
+        1
+      ],
+      [
+        "is 1-2 orders of magnitude higher than",
+        1
+      ],
+      [
+        "is 2–3 orders of magnitude higher than",
+        1
+      ],
+      [
+        "can transport across electrodes to",
+        1
+      ],
+      [
+        "when enhanced improves thermopower to",
+        1
+      ],
+      [
+        "jointly further enhances",
+        1
+      ],
+      [
+        "is the dominant transport mechanism governing",
+        1
+      ],
+      [
+        "is experimentally studied as a function of",
+        1
+      ],
+      [
+        "suffers from",
+        1
+      ],
+      [
+        "substitute at",
+        1
+      ],
+      [
+        "is motivated by consideration of",
+        1
+      ],
+      [
+        "relies on",
+        1
+      ],
+      [
+        "occurs in",
+        1
+      ],
+      [
+        "are proposed as suitable candidates for",
+        1
+      ],
+      [
+        "is embedded in",
+        1
+      ],
+      [
+        "underlie",
+        1
+      ],
+      [
+        "proposed_as_general_solution_for",
+        1
+      ],
+      [
+        "can_be_one_order_of_magnitude_larger_than",
+        1
+      ],
+      [
+        "hardly_exhibit",
+        1
+      ],
+      [
+        "is three orders of magnitude lower than",
+        1
+      ],
+      [
+        "may cancel with",
+        1
+      ],
+      [
+        "a lesser amount leads to larger",
+        1
+      ],
+      [
+        "partially substitutes for",
+        1
+      ],
+      [
+        "decreasing may decrease",
+        1
+      ],
+      [
+        "higher values accompany an increase in",
+        1
+      ],
+      [
+        "is proportional to",
+        1
+      ],
+      [
+        "reverses the sign of",
+        1
+      ],
+      [
+        "catalyzes",
+        1
+      ],
+      [
+        "highly depends on",
+        1
+      ],
+      [
+        "can_be_regarded_as_undergoing_energy_conversion_with",
+        1
+      ],
+      [
+        "proportional_to",
+        1
+      ],
+      [
+        "proposed_as_physical_realization_of",
+        1
+      ],
+      [
+        "implemented_through",
+        1
+      ],
+      [
+        "consistently_reported_to_achieve",
+        1
+      ],
+      [
+        "inversely_proportional_to",
+        1
+      ],
+      [
+        "defined_to_exhibit",
+        1
+      ],
+      [
+        "anticipated_to_yield",
+        1
+      ],
+      [
+        "is linked by a thermoelectric relationship to",
+        1
+      ],
+      [
+        "enhancement increases",
+        1
+      ],
+      [
+        "steers toward high mobility",
+        1
+      ],
+      [
+        "when steered by symmetry-protected orbital interactions enables",
+        1
+      ],
+      [
+        "solves",
+        1
+      ],
+      [
+        "continuously boosts",
+        1
+      ],
+      [
+        "is normally accompanied by",
+        1
+      ],
+      [
+        "is coupled to",
+        1
+      ],
+      [
+        "is required to attain",
+        1
+      ],
+      [
+        "cuts off",
+        1
+      ],
+      [
+        "its cutoff leads to",
+        1
+      ],
+      [
+        "its cutoff leads to suppression of",
+        1
+      ],
+      [
+        "is proposed to eliminate",
+        1
+      ],
+      [
+        "proposed_to_enhance",
+        1
+      ],
+      [
+        "distinguishes_isobaric_from",
+        1
+      ],
+      [
+        "expected_to_have_large",
+        1
+      ],
+      [
+        "violates",
+        1
+      ],
+      [
+        "scales_as_inverse_square_root_of",
+        1
+      ],
+      [
+        "gives_precise_estimate_of",
+        1
+      ],
+      [
+        "is_important_in",
+        1
+      ],
+      [
+        "originates",
+        1
+      ],
+      [
+        "is_an_example_of",
+        1
+      ],
+      [
+        "is_used_to_engineer",
+        1
+      ],
+      [
+        "was_previously_proposed_to_explain",
+        1
+      ],
+      [
+        "first_decreases_then_increases",
+        1
+      ],
+      [
+        "jointly_boost",
+        1
+      ],
+      [
+        "hardly changes",
+        1
+      ],
+      [
+        "through its strong temperature dependence accounts for",
+        1
+      ],
+      [
+        "is predicted to further improve",
+        1
+      ],
+      [
+        "is mathematically related by the first Kelvin relation to",
+        1
+      ],
+      [
+        "is related by the reversible reciprocal relation to",
+        1
+      ],
+      [
+        "jointly guarantees validity of",
+        1
+      ],
+      [
+        "is described by the product of",
+        1
+      ],
+      [
+        "is approximately proportional to",
+        1
+      ],
+      [
+        "is recommended for",
+        1
+      ],
+      [
+        "is derived for",
+        1
+      ],
+      [
+        "is related by the Kelvin relation to",
+        1
+      ],
+      [
+        "should be independent of",
+        1
+      ],
+      [
+        "commonly have",
+        1
+      ],
+      [
+        "is_approximately_given_by",
+        1
+      ],
+      [
+        "remarkably_enhances",
+        1
+      ],
+      [
+        "is_predicted_stable_in",
+        1
+      ],
+      [
+        "when_increased_impairs",
+        1
+      ],
+      [
+        "when_impaired_increases",
+        1
+      ],
+      [
+        "operate_on",
+        1
+      ],
+      [
+        "is_counterproductive_to",
+        1
+      ],
+      [
+        "helps_realize",
+        1
+      ],
+      [
+        "is_deposited_on_both_sides_of",
+        1
+      ],
+      [
+        "completely_covers_surface_of",
+        1
+      ],
+      [
+        "leaves_constant",
+        1
+      ],
+      [
+        "is_introduced_for",
+        1
+      ],
+      [
+        "is_used_for",
+        1
+      ],
+      [
+        "selectively_dope",
+        1
+      ],
+      [
+        "dictates",
+        1
+      ],
+      [
+        "rectifies",
+        1
+      ],
+      [
+        "is_more_efficient_than",
+        1
+      ],
+      [
+        "is_proportional_to",
+        1
+      ],
+      [
+        "thermally_induces",
+        1
+      ],
+      [
+        "is_the_state_at_which_performance_is_optimized",
+        1
+      ],
+      [
+        "thermodiffuse_from_hot_to_cold_parts",
+        1
+      ],
+      [
+        "absorbs_well",
+        1
+      ],
+      [
+        "penetrates_inner_fibers_of",
+        1
+      ],
+      [
+        "are_relevant_to_understanding",
+        1
+      ],
+      [
+        "contribute_most_to",
+        1
+      ],
+      [
+        "occurs_around",
+        1
+      ],
+      [
+        "when_suppressed_results_in",
+        1
+      ],
+      [
+        "endows_PEDOT:PSS_with",
+        1
+      ],
+      [
+        "starts_at",
+        1
+      ],
+      [
+        "ends_at",
+        1
+      ],
+      [
+        "is_distributed_at",
+        1
+      ],
+      [
+        "exponentially_increases",
+        1
+      ],
+      [
+        "is_intended_to_vary",
+        1
+      ],
+      [
+        "can_play_a_more_significant_role_in_lowering",
+        1
+      ],
+      [
+        "likely_promotes",
+        1
+      ],
+      [
+        "shares_across_variants",
+        1
+      ],
+      [
+        "strongly interacts with",
+        1
+      ],
+      [
+        "usually exhibits",
+        1
+      ],
+      [
+        "is surprisingly similar to",
+        1
+      ],
+      [
+        "is usually described as",
+        1
+      ],
+      [
+        "is negligibly small compared with",
+        1
+      ],
+      [
+        "further intercepts",
+        1
+      ],
+      [
+        "becomes characterized by",
+        1
+      ],
+      [
+        "is suggested to induce",
+        1
+      ],
+      [
+        "is commonly invoked to explain",
+        1
+      ],
+      [
+        "sharpens",
+        1
+      ],
+      [
+        "jointly motivate",
+        1
+      ],
+      [
+        "may_fulfill",
+        1
+      ],
+      [
+        "is_required_to_enhance",
+        1
+      ],
+      [
+        "is_used_as_medium_for",
+        1
+      ],
+      [
+        "is_proposed_to_participate_in",
+        1
+      ],
+      [
+        "thermodynamically_favors",
+        1
+      ],
+      [
+        "is_adopted_to_achieve",
+        1
+      ],
+      [
+        "hampers",
+        1
+      ],
+      [
+        "is_fast_enough_to_cause",
+        1
+      ],
+      [
+        "already_exhibits",
+        1
+      ],
+      [
+        "is_suggested_to_jointly_explain",
+        1
+      ],
+      [
+        "are evaluated as a function of",
+        1
+      ],
+      [
+        "can strongly distort",
+        1
+      ],
+      [
+        "is ionically bonded to",
+        1
+      ],
+      [
+        "are ideal for maintaining",
+        1
+      ],
+      [
+        "usually have",
+        1
+      ],
+      [
+        "is connected to",
+        1
+      ],
+      [
+        "together may enable",
+        1
+      ],
+      [
+        "is the attributed cause of",
+        1
+      ],
+      [
+        "is known to have",
+        1
+      ],
+      [
+        "is suggested not to contribute to",
+        1
+      ],
+      [
+        "anomalously decreases",
+        1
+      ],
+      [
+        "is suggested to undergo",
+        1
+      ],
+      [
+        "smoothly increases",
+        1
+      ],
+      [
+        "is more favorable for",
+        1
+      ],
+      [
+        "initially increases and subsequently decreases",
+        1
+      ],
+      [
+        "is a fundamental determinant of",
+        1
+      ],
+      [
+        "are located on",
+        1
+      ],
+      [
+        "is implicated in",
+        1
+      ],
+      [
+        "incorporated_into",
+        1
+      ],
+      [
+        "proposed_as_source_of",
+        1
+      ],
+      [
+        "considered_as_source_of",
+        1
+      ],
+      [
+        "is_possible_origin_of",
+        1
+      ],
+      [
+        "is_tolerated_while_maintaining",
+        1
+      ],
+      [
+        "designed_to_enhance",
+        1
+      ],
+      [
+        "are_described_as_ideal_for",
+        1
+      ],
+      [
+        "is_predicted_to_tend_toward",
+        1
+      ],
+      [
+        "particularly_improves",
+        1
+      ],
+      [
+        "is_suggested_to_undergo",
+        1
+      ],
+      [
+        "somewhat_renormalizes",
+        1
+      ],
+      [
+        "would_benefit",
+        1
+      ],
+      [
+        "would_be_ideal_for",
+        1
+      ],
+      [
+        "can_be_tuned",
+        1
+      ],
+      [
+        "is_applicable_to",
+        1
+      ],
+      [
+        "is_typically_adversely_related_to",
+        1
+      ],
+      [
+        "is_discussed_in_relation_to",
+        1
+      ],
+      [
+        "operates_by",
+        1
+      ],
+      [
+        "substitute_at",
+        1
+      ],
+      [
+        "maintenance_or_enhancement_is_intended_to_improve",
+        1
+      ],
+      [
+        "reduction_is_followed_by_reduction_of",
+        1
+      ],
+      [
+        "reduction_improves",
+        1
+      ],
+      [
+        "gives_atoms",
+        1
+      ],
+      [
+        "temperature_dependence_suggests",
+        1
+      ],
+      [
+        "high_value_enhances",
+        1
+      ],
+      [
+        "marks_onset_of",
+        1
+      ],
+      [
+        "shares",
+        1
+      ],
+      [
+        "is_strategy_for_enhancing",
+        1
+      ],
+      [
+        "transforms_into_dominant_complex",
+        1
+      ],
+      [
+        "varies inversely with",
+        1
+      ],
+      [
+        "shifts diffraction peaks to",
+        1
+      ],
+      [
+        "passes through",
+        1
+      ],
+      [
+        "plays a more important role in",
+        1
+      ],
+      [
+        "shifts toward lower x",
+        1
+      ],
+      [
+        "weakening lowers",
+        1
+      ],
+      [
+        "weakening shifts toward lower x",
+        1
+      ],
+      [
+        "reduction makes comparable to literature multi-filled skutterudites",
+        1
+      ],
+      [
+        "reduction improves",
+        1
+      ],
+      [
+        "is observed with",
+        1
+      ],
+      [
+        "inversely governs",
+        1
+      ],
+      [
+        "can further reduce",
+        1
+      ],
+      [
+        "are respectively associated with",
+        1
+      ],
+      [
+        "slip amplification increases",
+        1
+      ],
+      [
+        "does not significantly enhance",
+        1
+      ],
+      [
+        "slip amplification greatly enhances",
+        1
+      ],
+      [
+        "recovers",
+        1
+      ],
+      [
+        "is required to facilitate",
+        1
+      ],
+      [
+        "depends very weakly on",
+        1
+      ],
+      [
+        "is used to target",
+        1
+      ],
+      [
+        "is suggested as dominant cause of",
+        1
+      ],
+      [
+        "is suggested as secondary cause of",
+        1
+      ],
+      [
+        "can frustrate",
+        1
+      ],
+      [
+        "can assemble into",
+        1
+      ],
+      [
+        "dominantly induces",
+        1
+      ],
+      [
+        "is much longer than",
+        1
+      ],
+      [
+        "differs in thermoelectric enhancement efficacy from",
+        1
+      ],
+      [
+        "are isostructural with",
+        1
+      ],
+      [
+        "is located near",
+        1
+      ],
+      [
+        "boost",
+        1
+      ],
+      [
+        "is formed at",
+        1
+      ],
+      [
+        "is proposed to favorably control",
+        1
+      ],
+      [
+        "initially increases ionic thermopower to",
+        1
+      ],
+      [
+        "subsequently decreases ionic thermopower to",
+        1
+      ],
+      [
+        "jointly underlies calculation of",
+        1
+      ],
+      [
+        "are electrostatically adsorbed on",
+        1
+      ],
+      [
+        "direct",
+        1
+      ],
+      [
+        "remains as a dopant within",
+        1
+      ],
+      [
+        "most likely drives",
+        1
+      ],
+      [
+        "is disfavored as the driver of",
+        1
+      ],
+      [
+        "is excepted from",
+        1
+      ],
+      [
+        "when increased contributes to a large increase in",
+        1
+      ],
+      [
+        "coincides with",
+        1
+      ],
+      [
+        "is attributed as the mechanism enhancing",
+        1
+      ],
+      [
+        "exists as",
+        1
+      ],
+      [
+        "is the main cause of a slight reduction in",
+        1
+      ],
+      [
+        "blocks",
+        1
+      ],
+      [
+        "interact with",
+        1
+      ],
+      [
+        "often lack",
+        1
+      ],
+      [
+        "is_quantified_by",
+        1
+      ],
+      [
+        "drastically_decreases",
+        1
+      ],
+      [
+        "is_attributed_as_key_factor_for",
+        1
+      ],
+      [
+        "suppression reduces",
+        1
+      ],
+      [
+        "further increases power factor to",
+        1
+      ],
+      [
+        "is_a_complex_function_of",
+        1
+      ],
+      [
+        "continuously increases",
+        1
+      ],
+      [
+        "occurs at the same composition as",
+        1
+      ],
+      [
+        "is less dispersive than",
+        1
+      ],
+      [
+        "are modeled to yield",
+        1
+      ],
+      [
+        "challenges",
+        1
+      ],
+      [
+        "is_selected_as",
+        1
+      ],
+      [
+        "are_limited_by",
+        1
+      ],
+      [
+        "is_similar_across",
+        1
+      ],
+      [
+        "sharply increases",
+        1
+      ],
+      [
+        "shifts from positive to negative",
+        1
+      ],
+      [
+        "is advantageous for",
+        1
+      ],
+      [
+        "reported_as_only_existing_system_showing",
+        1
+      ],
+      [
+        "jointly motivates expectation of",
+        1
+      ],
+      [
+        "are_parameters_for",
+        1
+      ],
+      [
+        "slows",
+        1
+      ],
+      [
+        "is_major_contributor_to",
+        1
+      ],
+      [
+        "variously_modulates",
+        1
+      ],
+      [
+        "readily_disrupts",
+        1
+      ],
+      [
+        "restores",
+        1
+      ],
+      [
+        "further_increases_Seebeck_coefficient_to",
+        1
+      ],
+      [
+        "acts_through",
+        1
+      ],
+      [
+        "joint_regulation_optimizes",
+        1
+      ],
+      [
+        "jointly_underlies_decrease_in",
+        1
+      ],
+      [
+        "is_statistically_distributed_over",
+        1
+      ],
+      [
+        "randomly_occupies",
+        1
+      ],
+      [
+        "segregates_as",
+        1
+      ],
+      [
+        "is_predicted_to_be",
+        1
+      ],
+      [
+        "particularly_promotes",
+        1
+      ],
+      [
+        "develops_interfacial_solvation_structures",
+        1
+      ],
+      [
+        "fulfills",
+        1
+      ],
+      [
+        "partially_mitigates",
+        1
+      ],
+      [
+        "may_be_more_favorable_for",
+        1
+      ],
+      [
+        "jointly with enhanced power factor increases figure of merit to",
+        1
+      ],
+      [
+        "is interpreted as realizing",
+        1
+      ],
+      [
+        "is interpreted as inducing",
+        1
+      ],
+      [
+        "is interpreted as indicating",
+        1
+      ],
+      [
+        "jointly with minimum thermal conductivity enables",
+        1
+      ],
+      [
+        "scatter",
+        1
+      ],
+      [
+        "jointly with bonding heterogeneity gives rise to",
+        1
+      ],
+      [
+        "jointly with high Seebeck coefficient indicates",
+        1
+      ],
+      [
+        "occurs at more positive potentials than",
+        1
+      ],
+      [
+        "partially_compensates",
+        1
+      ],
+      [
+        "adversely_affects",
+        1
+      ],
+      [
+        "scaffold_structure_facilitates",
+        1
+      ],
+      [
+        "proposed_to_explain",
+        1
+      ],
+      [
+        "separates",
+        1
+      ],
+      [
+        "splits",
+        1
+      ],
+      [
+        "beneficially_affects",
+        1
+      ],
+      [
+        "is_proposed_to_obtain",
+        1
+      ],
+      [
+        "are_confined_to",
+        1
+      ],
+      [
+        "compose",
+        1
+      ],
+      [
+        "are_defined_by",
+        1
+      ],
+      [
+        "had_been_found_exclusively_in",
+        1
+      ],
+      [
+        "is_more_ionic_than",
+        1
+      ],
+      [
+        "interact_through",
+        1
+      ],
+      [
+        "may_reinforce_formation_of",
+        1
+      ],
+      [
+        "is_first_covered_by",
+        1
+      ],
+      [
+        "is_precisely_determined_by",
+        1
+      ],
+      [
+        "plays_an_important_role_in",
+        1
+      ],
+      [
+        "only_marginally_alters",
+        1
+      ],
+      [
+        "is_suggested_to_suppress",
+        1
+      ],
+      [
+        "disperses_graphene_into",
+        1
+      ],
+      [
+        "when_weakened_lowers",
+        1
+      ],
+      [
+        "becomes",
+        1
+      ],
+      [
+        "may_be_linked_to",
+        1
+      ],
+      [
+        "joint tuning suppresses",
+        1
+      ],
+      [
+        "is sufficient to produce",
+        1
+      ],
+      [
+        "makes apparent",
+        1
+      ],
+      [
+        "dominantly reduces",
+        1
+      ],
+      [
+        "replaces_as_matrix",
+        1
+      ],
+      [
+        "intended_to_reduce",
+        1
+      ],
+      [
+        "used_to_design",
+        1
+      ],
+      [
+        "jointly_keeps_very_low",
+        1
+      ],
+      [
+        "proposed_to_enable",
+        1
+      ],
+      [
+        "lessens",
+        1
+      ],
+      [
+        "can_be_explained_using",
+        1
+      ],
+      [
+        "virtually_constructed_from_layers",
+        1
+      ],
+      [
+        "is_prerequisite_for",
+        1
+      ],
+      [
+        "hardly_affects",
+        1
+      ],
+      [
+        "itself_exhibits",
+        1
+      ],
+      [
+        "is_approximately_five_times",
+        1
+      ],
+      [
+        "is_available_for",
+        1
+      ],
+      [
+        "is_assembled_from",
+        1
+      ],
+      [
+        "renders_pristine_material",
+        1
+      ],
+      [
+        "when_suppressed_leads_to",
+        1
+      ],
+      [
+        "is_interpreted_as",
+        1
+      ],
+      [
+        "when_inhibited_jointly_reduces",
+        1
+      ],
+      [
+        "differs_negligibly_from",
+        1
+      ],
+      [
+        "is_18_to_26_percent_higher_than",
+        1
+      ],
+      [
+        "similarity with thermopower activation energy suggests",
+        1
+      ],
+      [
+        "regenerates",
+        1
+      ],
+      [
+        "cross",
+        1
+      ],
+      [
+        "is structurally built from",
+        1
+      ],
+      [
+        "alternates with",
+        1
+      ],
+      [
+        "is qualitatively discussed in terms of",
+        1
+      ],
+      [
+        "further enhances",
+        1
+      ],
+      [
+        "is located behind",
+        1
+      ],
+      [
+        "is inferred to produce",
+        1
+      ],
+      [
+        "initially reduces",
+        1
+      ],
+      [
+        "largely leaves unchanged",
+        1
+      ],
+      [
+        "appears not importantly related to",
+        1
+      ],
+      [
+        "play a major role in",
+        1
+      ],
+      [
+        "interact non-negligibly with",
+        1
+      ],
+      [
+        "leaves",
+        1
+      ],
+      [
+        "encapsulates",
+        1
+      ],
+      [
+        "is believed to promote",
+        1
+      ],
+      [
+        "is believed to promote growth of",
+        1
+      ],
+      [
+        "is predicted to further enhance",
+        1
+      ],
+      [
+        "is proposed to implement",
+        1
+      ],
+      [
+        "is decorated by",
+        1
+      ],
+      [
+        "is_critical_factor_suppressing",
+        1
+      ],
+      [
+        "is_adjacent_to",
+        1
+      ],
+      [
+        "is_proposed_strategy_for",
+        1
+      ],
+      [
+        "likely_allows",
+        1
+      ],
+      [
+        "is_inserted_in",
+        1
+      ],
+      [
+        "makes_particularly_favorable",
+        1
+      ],
+      [
+        "plays_important_role_in",
+        1
+      ],
+      [
+        "similar_to",
+        1
+      ],
+      [
+        "scales_as",
+        1
+      ],
+      [
+        "reduction_could_increase",
+        1
+      ],
+      [
+        "continuously_decreases",
+        1
+      ],
+      [
+        "enhancement_decreases",
+        1
+      ],
+      [
+        "completely_suppresses",
+        1
+      ],
+      [
+        "proposed_to_modulate",
+        1
+      ],
+      [
+        "enhancement_results_in",
+        1
+      ],
+      [
+        "prolongs",
+        1
+      ],
+      [
+        "accelerates_or_delays",
+        1
+      ],
+      [
+        "is dispersed in",
+        1
+      ],
+      [
+        "replaces",
+        1
+      ],
+      [
+        "is likely to satisfy",
+        1
+      ],
+      [
+        "is proposed to be related to",
+        1
+      ],
+      [
+        "differs significantly from",
+        1
+      ],
+      [
+        "tends to exhibit",
+        1
+      ],
+      [
+        "can begin to exhibit",
+        1
+      ],
+      [
+        "are comparable across",
+        1
+      ],
+      [
+        "balances",
+        1
+      ],
+      [
+        "identified_as",
+        1
+      ],
+      [
+        "first_causes",
+        1
+      ],
+      [
+        "occurs_together_with",
+        1
+      ],
+      [
+        "probably_occurs_together_with",
+        1
+      ],
+      [
+        "interacts_with_electrolyte_ions_via",
+        1
+      ],
+      [
+        "is_tens_of_times_higher_than",
+        1
+      ],
+      [
+        "remains",
+        1
+      ],
+      [
+        "is_capable_of",
+        1
+      ],
+      [
+        "conduct",
+        1
+      ],
+      [
+        "conditions attainment of",
+        1
+      ],
+      [
+        "is an important factor in attaining",
+        1
+      ],
+      [
+        "inspires",
+        1
+      ],
+      [
+        "obstructs",
+        1
+      ],
+      [
+        "is the main factor governing",
+        1
+      ],
+      [
+        "when decreased, increases",
+        1
+      ],
+      [
+        "leaves almost constant",
+        1
+      ],
+      [
+        "directs",
+        1
+      ],
+      [
+        "is assumed to explain",
+        1
+      ],
+      [
+        "further_suppresses",
+        1
+      ],
+      [
+        "is_main_reason_for",
+        1
+      ],
+      [
+        "is_appropriately_described_by",
+        1
+      ],
+      [
+        "is_positively_related_to",
+        1
+      ],
+      [
+        "precedes_at_less_negative_potentials",
+        1
+      ],
+      [
+        "appears_as",
+        1
+      ],
+      [
+        "jointly_benefits",
+        1
+      ],
+      [
+        "is_more_effective_than",
+        1
+      ],
+      [
+        "is_more_stable_than",
+        1
+      ],
+      [
+        "is_slightly_more_stable_than",
+        1
+      ],
+      [
+        "is a conditional route to",
+        1
+      ],
+      [
+        "is suspected to act as",
+        1
+      ],
+      [
+        "appears to exhibit",
+        1
+      ],
+      [
+        "is inferred to involve",
+        1
+      ],
+      [
+        "dictates whether ions undergo",
+        1
+      ],
+      [
+        "filters low-energy carriers through",
+        1
+      ],
+      [
+        "are reported as vastly higher than",
+        1
+      ],
+      [
+        "is deposited on",
+        1
+      ],
+      [
+        "is estimated to reach",
+        1
+      ],
+      [
+        "minimizes the ionic gradient to produce",
+        1
+      ],
+      [
+        "is necessary for",
+        1
+      ],
+      [
+        "preferentially undergoes",
+        1
+      ],
+      [
+        "bridges",
+        1
+      ],
+      [
+        "is much larger than",
+        1
+      ],
+      [
+        "joins neighboring",
+        1
+      ],
+      [
+        "is a derivative of",
+        1
+      ],
+      [
+        "plays a role in",
+        1
+      ],
+      [
+        "takes place on",
+        1
+      ],
+      [
+        "can partially or fully cover",
+        1
+      ],
+      [
+        "makes less favorable",
+        1
+      ],
+      [
+        "is proposed as an origin of enhancement of",
+        1
+      ],
+      [
+        "is optimal for",
+        1
+      ],
+      [
+        "are_mostly_accommodated_in",
+        1
+      ],
+      [
+        "plays_crucial_role_in",
+        1
+      ],
+      [
+        "uniquely_exhibits",
+        1
+      ],
+      [
+        "increasing_trend_causes_increase_in",
+        1
+      ],
+      [
+        "are_much_higher_than",
+        1
+      ],
+      [
+        "scatters_phonons_through",
+        1
+      ],
+      [
+        "is_prominent_mechanism_reducing",
+        1
+      ],
+      [
+        "are_isostructural_to",
+        1
+      ],
+      [
+        "can_be_described_as",
+        1
+      ],
+      [
+        "are_reminiscent_of",
+        1
+      ],
+      [
+        "transition_controlled_tuning_explains",
+        1
+      ],
+      [
+        "dopant_identity_changes",
+        1
+      ],
+      [
+        "is_strongly_interdependent_with",
+        1
+      ],
+      [
+        "is_expected_to_shift_to",
+        1
+      ],
+      [
+        "motivates_expected_formation_of",
+        1
+      ],
+      [
+        "jointly_endows_CaSe_with",
+        1
+      ],
+      [
+        "jointly_compromises",
+        1
+      ],
+      [
+        "counteracts",
+        1
+      ],
+      [
+        "guides",
+        1
+      ],
+      [
+        "are_predicted_to_be_unimportant_or_only_further_degrade",
+        1
+      ],
+      [
+        "accomplishes",
+        1
+      ],
+      [
+        "holds_together",
+        1
+      ],
+      [
+        "decorates",
+        1
+      ],
+      [
+        "operates_based_on",
+        1
+      ],
+      [
+        "may_be_associated_with",
+        1
+      ],
+      [
+        "is_combined_to_determine",
+        1
+      ],
+      [
+        "jointly accompanies attainment of",
+        1
+      ],
+      [
+        "makes challenging",
+        1
+      ],
+      [
+        "is_appended_with",
+        1
+      ],
+      [
+        "dampens",
+        1
+      ],
+      [
+        "maximize",
+        1
+      ],
+      [
+        "is_used_to_interpret",
+        1
+      ],
+      [
+        "conceptually_transforms",
+        1
+      ],
+      [
+        "conceptually_yields",
+        1
+      ],
+      [
+        "is_comparable_to_or_dominates",
+        1
+      ],
+      [
+        "engenders",
+        1
+      ],
+      [
+        "spans",
+        1
+      ],
+      [
+        "usually_yields",
+        1
+      ],
+      [
+        "culminates_in",
+        1
+      ],
+      [
+        "scales_as_inverse_one_sixth_power_of",
+        1
+      ],
+      [
+        "narrowing_reflects",
+        1
+      ],
+      [
+        "reduction_results_in",
+        1
+      ],
+      [
+        "is_essentially",
+        1
+      ],
+      [
+        "best_describes_structure_of",
+        1
+      ],
+      [
+        "obviously_affects",
+        1
+      ],
+      [
+        "may_cooperate_with",
+        1
+      ],
+      [
+        "solely_determines",
+        1
+      ],
+      [
+        "is_essentially_equal_to",
+        1
+      ],
+      [
+        "when_lowered_jointly_results_in",
+        1
+      ],
+      [
+        "is_interpreted_as_confirming",
+        1
+      ],
+      [
+        "when_increased_significantly_increases",
+        1
+      ],
+      [
+        "is_1.6_times",
+        1
+      ],
+      [
+        "is_selected_to_increase",
+        1
+      ],
+      [
+        "is_intended_to_obtain",
+        1
+      ],
+      [
+        "when_lower_is_associated_with_higher",
+        1
+      ],
+      [
+        "almost_linearly_increases",
+        1
+      ],
+      [
+        "when_increased_decreases",
+        1
+      ],
+      [
+        "conduct predominantly through",
+        1
+      ],
+      [
+        "scales as eta^−0.4 with",
+        1
+      ],
+      [
+        "is related by a chemical rule to",
+        1
+      ],
+      [
+        "weakly disturbs",
+        1
+      ],
+      [
+        "is dominated by",
+        1
+      ],
+      [
+        "is assessed as",
+        1
+      ],
+      [
+        "may be closely related to",
+        1
+      ],
+      [
+        "link to form",
+        1
+      ],
+      [
+        "are inserted between",
+        1
+      ],
+      [
+        "endows gel with",
+        1
+      ],
+      [
+        "moderately decreases",
+        1
+      ],
+      [
+        "is inferred to increase",
+        1
+      ],
+      [
+        "leaves no detected",
+        1
+      ],
+      [
+        "jointly accompanies",
+        1
+      ],
+      [
+        "is achieved only within",
+        1
+      ],
+      [
+        "participates in",
+        1
+      ],
+      [
+        "contributes",
+        1
+      ],
+      [
+        "occurs_with",
+        1
+      ],
+      [
+        "does_not_significantly_affect",
+        1
+      ],
+      [
+        "is_proposed_to_be",
+        1
+      ],
+      [
+        "joint_adjustment_may_enable",
+        1
+      ],
+      [
+        "is_pivotal_for",
+        1
+      ],
+      [
+        "densifies_CuAgSe_to",
+        1
+      ],
+      [
+        "plays_pivotal_role_in",
+        1
+      ],
+      [
+        "steers",
+        1
+      ],
+      [
+        "repel",
+        1
+      ],
+      [
+        "is_approximately_17_percent_lower_than",
+        1
+      ],
+      [
+        "joint_changes_are_reflected_in_changes_in",
+        1
+      ],
+      [
+        "is_present_in_matrix_of",
+        1
+      ],
+      [
+        "is_about_3.5_times",
+        1
+      ],
+      [
+        "can_initiate",
+        1
+      ],
+      [
+        "may_degrade",
+        1
+      ],
+      [
+        "enriches",
+        1
+      ],
+      [
+        "likely_accounts_for",
+        1
+      ],
+      [
+        "is_introduced_into",
+        1
+      ],
+      [
+        "joint_tuning_improves",
+        1
+      ],
+      [
+        "is_proposed_to_separate_from",
+        1
+      ],
+      [
+        "is_swellable_by",
+        1
+      ],
+      [
+        "occurs_via",
+        1
+      ],
+      [
+        "scales_with",
+        1
+      ],
+      [
+        "visibly_influences",
+        1
+      ],
+      [
+        "may_constitute",
+        1
+      ],
+      [
+        "is performed to obtain",
+        1
+      ],
+      [
+        "plays an intrinsic role in",
+        1
+      ],
+      [
+        "also contains",
+        1
+      ],
+      [
+        "probably has",
+        1
+      ],
+      [
+        "can access",
+        1
+      ],
+      [
+        "largely dictates",
+        1
+      ],
+      [
+        "profoundly changes",
+        1
+      ],
+      [
+        "crystallize in",
+        1
+      ],
+      [
+        "collectively reflect",
+        1
+      ],
+      [
+        "its_absence_explains_absence_of",
+        1
+      ],
+      [
+        "is_inferred_to_have",
+        1
+      ],
+      [
+        "increasing_almost_monotonically_decreases",
+        1
+      ],
+      [
+        "its_increase_improves",
+        1
+      ],
+      [
+        "its_increase_increases",
+        1
+      ],
+      [
+        "its_decrease_boosts",
+        1
+      ],
+      [
+        "lacunar_character_suggests",
+        1
+      ],
+      [
+        "is_primary_factor_for",
+        1
+      ],
+      [
+        "likely_depend_on",
+        1
+      ],
+      [
+        "is analyzed in terms of",
+        1
+      ],
+      [
+        "switches",
+        1
+      ],
+      [
+        "starts from",
+        1
+      ],
+      [
+        "transforms MgAu2F8 into",
+        1
+      ],
+      [
+        "tends to achieve p-type characteristics through",
+        1
+      ],
+      [
+        "is oriented along",
+        1
+      ],
+      [
+        "is only 10% of",
+        1
+      ],
+      [
+        "is challenging to endow with",
+        1
+      ],
+      [
+        "is in",
+        1
+      ],
+      [
+        "eventually leads to",
+        1
+      ],
+      [
+        "is considered to play an important role in",
+        1
+      ],
+      [
+        "is considered to influence",
+        1
+      ],
+      [
+        "is closely related to",
+        1
+      ],
+      [
+        "is a singularity point of",
+        1
+      ],
+      [
+        "is almost twice",
+        1
+      ],
+      [
+        "is less active in",
+        1
+      ],
+      [
+        "self_assemble_by_sharing",
+        1
+      ],
+      [
+        "jointly_engages_in",
+        1
+      ],
+      [
+        "can transform bonds into",
+        1
+      ],
+      [
+        "is preferentially related to",
+        1
+      ],
+      [
+        "is separated by",
+        1
+      ],
+      [
+        "crystallizes as",
+        1
+      ],
+      [
+        "is suggested to be",
+        1
+      ],
+      [
+        "reprograms",
+        1
+      ],
+      [
+        "switches transport to",
+        1
+      ],
+      [
+        "makes_increasingly_negative",
+        1
+      ],
+      [
+        "receive_small_contribution_from",
+        1
+      ],
+      [
+        "enhancement_benefits",
+        1
+      ],
+      [
+        "is_upper_formation_limit_for",
+        1
+      ],
+      [
+        "also_exhibits",
+        1
+      ],
+      [
+        "is_mainly_governed_by",
+        1
+      ],
+      [
+        "is_most_limiting_step_of",
+        1
+      ],
+      [
+        "first_increases_then_decreases_then_increases",
+        1
+      ],
+      [
+        "is_somewhat_negligible_relative_to",
+        1
+      ],
+      [
+        "predominates_in",
+        1
+      ],
+      [
+        "regulation_amplifies",
+        1
+      ],
+      [
+        "is_grown_on",
+        1
+      ],
+      [
+        "is_added_to_achieve",
+        1
+      ],
+      [
+        "endows",
+        1
+      ],
+      [
+        "shares_with_half_Heuslers",
+        1
+      ],
+      [
+        "is_crucial_in_determining",
+        1
+      ],
+      [
+        "jointly hampers",
+        1
+      ],
+      [
+        "intrinsically possesses",
+        1
+      ],
+      [
+        "extends",
+        1
+      ],
+      [
+        "preferentially occupies in sequence",
+        1
+      ],
+      [
+        "shifts to",
+        1
+      ],
+      [
+        "poses difficulty for forming",
+        1
+      ],
+      [
+        "is a design requirement for",
+        1
+      ],
+      [
+        "poses difficulty for reaching",
+        1
+      ],
+      [
+        "is recommended in preference to",
+        1
+      ],
+      [
+        "is close to",
+        1
+      ],
+      [
+        "is proposed as the most effective route to",
+        1
+      ],
+      [
+        "operates_through",
+        1
+      ],
+      [
+        "weakening_increases",
+        1
+      ],
+      [
+        "is_governed_by",
+        1
+      ],
+      [
+        "proceeds_via",
+        1
+      ],
+      [
+        "is_similar_to",
+        1
+      ],
+      [
+        "similarity_reflects",
+        1
+      ],
+      [
+        "is_twice_as_large_as",
+        1
+      ],
+      [
+        "is_about_twice_as_large_as",
+        1
+      ],
+      [
+        "closely_relates_to",
+        1
+      ],
+      [
+        "cancels",
+        1
+      ],
+      [
+        "further_lowers",
+        1
+      ],
+      [
+        "collectively_accounts_for",
+        1
+      ],
+      [
+        "are_interleaved_by",
+        1
+      ],
+      [
+        "makes_sample_exhibit",
+        1
+      ],
+      [
+        "is_isotypic_to_structure_of",
+        1
+      ],
+      [
+        "strongly_interact_with",
+        1
+      ],
+      [
+        "occur_in",
+        1
+      ],
+      [
+        "is_constructed_by",
+        1
+      ],
+      [
+        "strongly_scatter",
+        1
+      ],
+      [
+        "is_built_of",
+        1
+      ],
+      [
+        "initially_appears_located_in",
+        1
+      ],
+      [
+        "is_situated_in",
+        1
+      ],
+      [
+        "are_connected_by",
+        1
+      ],
+      [
+        "are_surrounded_by",
+        1
+      ],
+      [
+        "with_surrounding_Ba_cations_results_in",
+        1
+      ],
+      [
+        "is_suggested_to_have",
+        1
+      ],
+      [
+        "are_emerged_into",
+        1
+      ],
+      [
+        "drastically_changes",
+        1
+      ],
+      [
+        "contracts",
+        1
+      ],
+      [
+        "surpasses",
+        1
+      ],
+      [
+        "may_play_key_role_in",
+        1
+      ],
+      [
+        "is_concurrent_with",
+        1
+      ],
+      [
+        "consequently_reduces",
+        1
+      ],
+      [
+        "is_mainly_dominated_by",
+        1
+      ],
+      [
+        "originates_primarily_from",
+        1
+      ],
+      [
+        "are_filled_by",
+        1
+      ],
+      [
+        "temperature_trend_indicates",
+        1
+      ],
+      [
+        "alternate with",
+        1
+      ],
+      [
+        "are normal to",
+        1
+      ],
+      [
+        "finely adjusts",
+        1
+      ],
+      [
+        "guides control of",
+        1
+      ],
+      [
+        "is reflected by",
+        1
+      ],
+      [
+        "is suggested to strongly influence",
+        1
+      ],
+      [
+        "actively participate in",
+        1
+      ],
+      [
+        "is preferred for",
+        1
+      ],
+      [
+        "is mainly dominated by",
+        1
+      ],
+      [
+        "was predicted and subsequently verified to exhibit",
+        1
+      ],
+      [
+        "is enriched in",
+        1
+      ],
+      [
+        "intended_to_promote",
+        1
+      ],
+      [
+        "characteristic_of",
+        1
+      ],
+      [
+        "expected_to_conduct_via",
+        1
+      ],
+      [
+        "may consequently affect",
+        1
+      ],
+      [
+        "shortens by approximately 0.2 Å",
+        1
+      ],
+      [
+        "shortening is consistent with",
+        1
+      ],
+      [
+        "is suggested to be associated with",
+        1
+      ],
+      [
+        "selectively adsorbs",
+        1
+      ],
+      [
+        "co-uptakes",
+        1
+      ],
+      [
+        "are supposed to affect",
+        1
+      ],
+      [
+        "follow",
+        1
+      ],
+      [
+        "most likely exhibits symmetry with",
+        1
+      ],
+      [
+        "noticeably influences",
+        1
+      ],
+      [
+        "doubles ZT to",
+        1
+      ],
+      [
+        "melt incongruently to form",
+        1
+      ],
+      [
+        "helps internal stress decrease",
+        1
+      ],
+      [
+        "is isotypic with",
+        1
+      ],
+      [
+        "plays a crucial role in",
+        1
+      ],
+      [
+        "open",
+        1
+      ],
+      [
+        "discontinuously transform metavalent crystals into",
+        1
+      ],
+      [
+        "steadily decreases",
+        1
+      ],
+      [
+        "deteriorates",
+        1
+      ],
+      [
+        "regains",
+        1
+      ],
+      [
+        "preferentially occurs at",
+        1
+      ],
+      [
+        "was calculated as a function of",
+        1
+      ],
+      [
+        "perturb",
+        1
+      ],
+      [
+        "is distributed in",
+        1
+      ],
+      [
+        "is reported higher than",
+        1
+      ],
+      [
+        "is suggested to mainly govern",
+        1
+      ],
+      [
+        "makes the major contribution to",
+        1
+      ],
+      [
+        "is locally charge-compensated by",
+        1
+      ],
+      [
+        "is directed as",
+        1
+      ],
+      [
+        "depletes",
+        1
+      ],
+      [
+        "varies in agreement with",
+        1
+      ],
+      [
+        "varies almost linearly with",
+        1
+      ],
+      [
+        "is analogous to",
+        1
+      ],
+      [
+        "should be constrained to",
+        1
+      ],
+      [
+        "is used with the purpose of",
+        1
+      ],
+      [
+        "is crucial for",
+        1
+      ],
+      [
+        "eventually causes",
+        1
+      ],
+      [
+        "is crucial to avert",
+        1
+      ],
+      [
+        "solely determines",
+        1
+      ],
+      [
+        "is interpreted in terms of",
+        1
+      ],
+      [
+        "differs in local defect disorder from",
+        1
+      ],
+      [
+        "differs in related semiconducting properties from",
+        1
+      ],
+      [
+        "may be related to",
+        1
+      ],
+      [
+        "may be used for",
+        1
+      ],
+      [
+        "plays a decisive role in the emergence of",
+        1
+      ],
+      [
+        "play an important role in determining",
+        1
+      ],
+      [
+        "makes a finite contribution to",
+        1
+      ],
+      [
+        "strongly hybridizes with",
+        1
+      ],
+      [
+        "when increased, is attributed as the cause of decreasing",
+        1
+      ],
+      [
+        "through its decrease, governs",
+        1
+      ],
+      [
+        "when increased, decreases",
+        1
+      ],
+      [
+        "are_closely_coupled_to",
+        1
+      ],
+      [
+        "reinforces",
+        1
+      ],
+      [
+        "integration_produces",
+        1
+      ],
+      [
+        "systematically_changes",
+        1
+      ],
+      [
+        "is_suggested_to_play_an_important_role_in",
+        1
+      ],
+      [
+        "is_isomorphic_to",
+        1
+      ],
+      [
+        "differs_from_Pnma_by",
+        1
+      ],
+      [
+        "is_sandwiched_by",
+        1
+      ],
+      [
+        "are_separated_by",
+        1
+      ],
+      [
+        "retards",
+        1
+      ],
+      [
+        "jointly with oxygen vacancies generates",
+        1
+      ],
+      [
+        "aids",
+        1
+      ],
+      [
+        "is most effective for",
+        1
+      ],
+      [
+        "both have",
+        1
+      ],
+      [
+        "condense into",
+        1
+      ],
+      [
+        "are separated by",
+        1
+      ],
+      [
+        "is typically described as",
+        1
+      ],
+      [
+        "also act as",
+        1
+      ],
+      [
+        "reduction_enhances",
+        1
+      ],
+      [
+        "shifts_to_higher_oxygen_pressure",
+        1
+      ],
+      [
+        "originate_mostly_from",
+        1
+      ],
+      [
+        "suppression_leads_to",
+        1
+      ],
+      [
+        "is_best_described_as",
+        1
+      ],
+      [
+        "is_claimed_to_underlie",
+        1
+      ],
+      [
+        "systematically_decreases",
+        1
+      ],
+      [
+        "penetrates_into",
+        1
+      ],
+      [
+        "depends exponentially on",
+        1
+      ],
+      [
+        "is much weaker than",
+        1
+      ],
+      [
+        "reduction primarily causes decrease in",
+        1
+      ],
+      [
+        "originates from",
+        1
+      ],
+      [
+        "may contribute",
+        1
+      ],
+      [
+        "contribution may reduce",
+        1
+      ],
+      [
+        "suppression may reduce",
+        1
+      ],
+      [
+        "reduction results in",
+        1
+      ],
+      [
+        "directly impacts",
+        1
+      ],
+      [
+        "can be equivalently described in terms of",
+        1
+      ],
+      [
+        "can vibrate with",
+        1
+      ],
+      [
+        "tailoring consequently optimizes",
+        1
+      ],
+      [
+        "endows films with",
+        1
+      ],
+      [
+        "uniquely has",
+        1
+      ],
+      [
+        "successfully_grown_with_structure",
+        1
+      ],
+      [
+        "kinetically_prevents",
+        1
+      ],
+      [
+        "ranks_as",
+        1
+      ],
+      [
+        "is_at_least_tenfold_lower_than",
+        1
+      ],
+      [
+        "assigns_local_symmetry_breaking_to",
+        1
+      ],
+      [
+        "displace_from_cubic_ground_state_into",
+        1
+      ],
+      [
+        "ranked_as",
+        1
+      ],
+      [
+        "is_critical_to",
+        1
+      ],
+      [
+        "is_located_in",
+        1
+      ],
+      [
+        "closes",
+        1
+      ],
+      [
+        "is_located_near",
+        1
+      ],
+      [
+        "stuffs",
+        1
+      ],
+      [
+        "is_believed_to_produce",
+        1
+      ],
+      [
+        "carries_over_as",
+        1
+      ],
+      [
+        "is_proposed_as_having",
+        1
+      ],
+      [
+        "are_proposed_as_having",
+        1
+      ],
+      [
+        "remarkably_reduces",
+        1
+      ],
+      [
+        "remarkably_increases",
+        1
+      ],
+      [
+        "substitutes",
+        1
+      ],
+      [
+        "interacts_ionically_with",
+        1
+      ],
+      [
+        "presents_barrier_to",
+        1
+      ],
+      [
+        "share",
+        1
+      ],
+      [
+        "is_proposed_as_basis_for",
+        1
+      ],
+      [
+        "is_competitive_with",
+        1
+      ],
+      [
+        "mainly_moves_within",
+        1
+      ],
+      [
+        "may_diffuse_along",
+        1
+      ],
+      [
+        "casts_doubt_on",
+        1
+      ],
+      [
+        "is_probably_not_the_origin_of",
+        1
+      ],
+      [
+        "conserves",
+        1
+      ],
+      [
+        "is_suggested_to_cause",
+        1
+      ],
+      [
+        "is_primary_origin_of",
+        1
+      ],
+      [
+        "is_interpreted_as_origin_of",
+        1
+      ],
+      [
+        "may_progress_toward",
+        1
+      ],
+      [
+        "often_accomplishes",
+        1
+      ],
+      [
+        "strongly_depresses",
+        1
+      ],
+      [
+        "can_accommodate",
+        1
+      ],
+      [
+        "tends_to_have",
+        1
+      ],
+      [
+        "commonly_contains",
+        1
+      ],
+      [
+        "commonly_exhibits",
+        1
+      ],
+      [
+        "predominantly_exhibits",
+        1
+      ],
+      [
+        "is_introduced_to_optimize",
+        1
+      ],
+      [
+        "is_situated_at",
+        1
+      ],
+      [
+        "usually_results_in",
+        1
+      ],
+      [
+        "is_location_of_minimum",
+        1
+      ],
+      [
+        "evolves_into",
+        1
+      ],
+      [
+        "opens_up",
+        1
+      ],
+      [
+        "can_extend_to",
+        1
+      ],
+      [
+        "shares_faces_and_edges_to_build",
+        1
+      ],
+      [
+        "shares_edges_to_form",
+        1
+      ],
+      [
+        "connects_adjacent",
+        1
+      ],
+      [
+        "connects_with_ribbons_to_form",
+        1
+      ],
+      [
+        "share_edges_to_form",
+        1
+      ],
+      [
+        "is_intended_to_overcome",
+        1
+      ],
+      [
+        "smoothens",
+        1
+      ],
+      [
+        "first forms, then destroys, then reforms",
+        1
+      ],
+      [
+        "is the composition at which",
+        1
+      ],
+      [
+        "is argued to exhibit",
+        1
+      ],
+      [
+        "is suggested to form",
+        1
+      ],
+      [
+        "is in fair agreement with",
+        1
+      ],
+      [
+        "is grafted at base end of",
+        1
+      ],
+      [
+        "does not become",
+        1
+      ],
+      [
+        "when_higher_lowers",
+        1
+      ],
+      [
+        "when_lowered_enables",
+        1
+      ],
+      [
+        "appears_to_favor",
+        1
+      ],
+      [
+        "is_heavier_than",
+        1
+      ],
+      [
+        "plays_main_role_in",
+        1
+      ],
+      [
+        "is_even_stronger_than",
+        1
+      ],
+      [
+        "systematically_increases",
+        1
+      ],
+      [
+        "systematically_contracts",
+        1
+      ],
+      [
+        "progressively_narrows",
+        1
+      ],
+      [
+        "is_attributed_to",
+        1
+      ],
+      [
+        "is_likely_associated_with",
+        1
+      ],
+      [
+        "appears_to_reduce",
+        1
+      ],
+      [
+        "is_more_stable_in",
+        1
+      ],
+      [
+        "is_dominant_ion_in",
+        1
+      ],
+      [
+        "is_examined_in_relation_to",
+        1
+      ],
+      [
+        "are_dominated_by",
+        1
+      ],
+      [
+        "is_built_from",
+        1
+      ],
+      [
+        "are_distributed_over",
+        1
+      ],
+      [
+        "are_arranged_in",
+        1
+      ],
+      [
+        "intertwines_with",
+        1
+      ],
+      [
+        "is_as_important_as",
+        1
+      ],
+      [
+        "is_intimately_related_to",
+        1
+      ],
+      [
+        "is_embedded_in",
+        1
+      ],
+      [
+        "shifts from 900 °C to 830 °C",
+        1
+      ],
+      [
+        "further lowers",
+        1
+      ],
+      [
+        "increasing abundance is reflected in expansion of",
+        1
+      ],
+      [
+        "reduction is associated with redshift of",
+        1
+      ],
+      [
+        "is a ternary ordered version of",
+        1
+      ],
+      [
+        "reduction decreases",
+        1
+      ],
+      [
+        "incorporation correlates with changes in",
+        1
+      ],
+      [
+        "reduction jointly indicates increased",
+        1
+      ],
+      [
+        "reduction jointly indicates reduced",
+        1
+      ],
+      [
+        "is jointly predicted with greater disparity to increase",
+        1
+      ],
+      [
+        "is interpreted by the authors as contributing to",
+        1
+      ]
+    ],
+    "core_raw_expression_components": 3870,
+    "core_raw_expression_largest_component": 3471,
+    "accepted_evidence_quote_checks": {
+      "exact_quote_match": 20699,
+      "context_quote_total": 10634,
+      "context_quote_exact_match": 10634
+    },
+    "core_duplicate_claim_groups": [
+      [
+        "iTE:P0711:r010",
+        "iTE:P0711:r011"
+      ],
+      [
+        "iTE:P0806:r002",
+        "iTE:P0806:r003"
+      ],
+      [
+        "iTE:P1500:r003",
+        "iTE:P1500:r010"
+      ],
+      [
+        "iTE:P1830:r002",
+        "iTE:P1830:r003"
+      ],
+      [
+        "iTE:P1867:r014",
+        "iTE:P1867:r015"
+      ]
+    ],
+    "top_concepts_by_expression_count": [
+      [
+        "iTE:concept:seebeck",
+        "Seebeck coefficient",
+        445
+      ],
+      [
+        "iTE:concept:zt",
+        "Figure of merit",
+        403
+      ],
+      [
+        "iTE:concept:power_factor",
+        "Power factor",
+        245
+      ],
+      [
+        "iTE:concept:band_gap",
+        "Band gap",
+        240
+      ],
+      [
+        "iTE:concept:thermal_conductivity",
+        "Thermal conductivity",
+        165
+      ],
+      [
+        "iTE:concept:electrical_conductivity",
+        "Electrical conductivity",
+        160
+      ],
+      [
+        "iTE:concept:te_performance",
+        "Thermoelectric performance",
+        156
+      ],
+      [
+        "iTE:concept:doping",
+        "Doping / substitution",
+        126
+      ],
+      [
+        "iTE:concept:ionic_conductivity",
+        "Ionic conductivity",
+        115
+      ],
+      [
+        "iTE:concept:lattice_thermal_conductivity",
+        "Lattice thermal conductivity",
+        113
+      ],
+      [
+        "iTE:concept:ionic_seebeck",
+        "Ionic Seebeck coefficient",
+        88
+      ],
+      [
+        "iTE:concept:ionic_radius",
+        "Ionic radius",
+        62
+      ],
+      [
+        "iTE:concept:carrier_concentration",
+        "Carrier concentration",
+        53
+      ],
+      [
+        "iTE:concept:ion_transport",
+        "Ion transport",
+        46
+      ],
+      [
+        "iTE:concept:conductivity_unspecified",
+        "Conductivity (unspecified)",
+        45
+      ]
+    ],
+    "core_same_concept_edges": 49,
+    "core_effect_direction": {
+      "unspecified": 11764,
+      "increase": 527,
+      "decrease": 448,
+      "unchanged": 64,
+      "negligible": 1
+    },
+    "core_normalization_status": {
+      "normalized": 9409,
+      "verbatim_retained": 1716,
+      "normalized_with_residual": 1679
+    },
+    "core_negated_edges": 180,
+    "core_joint_edges": 863,
+    "core_assertions": {
+      "author_claim": 11175,
+      "hypothesis": 591,
+      "negated": 177,
+      "association": 861
+    }
+  },
+  "TG": {
+    "papers": 333,
+    "papers_with_accepted_edges": 330,
+    "papers_with_core_edges": 295,
+    "accepted_edges": 3617,
+    "source_expressions": 4695,
+    "concept_associations": 876,
+    "core_edges": 1371,
+    "core_expressions": 1933,
+    "core_associated_expressions": 440,
+    "core_endpoint_association_counts": {
+      "0": 812,
+      "1": 493,
+      "2": 66
+    },
+    "core_roles": {
+      "mechanism_process": {
+        "total": 317,
+        "associated": 54
+      },
+      "material_entity": {
+        "total": 461,
+        "associated": 9
+      },
+      "state_structure": {
+        "total": 177,
+        "associated": 9
+      },
+      "quantity": {
+        "total": 489,
+        "associated": 275
+      },
+      "performance_function": {
+        "total": 132,
+        "associated": 39
+      },
+      "condition": {
+        "total": 72,
+        "associated": 23
+      },
+      "interaction": {
+        "total": 75,
+        "associated": 14
+      },
+      "descriptor": {
+        "total": 108,
+        "associated": 13
+      },
+      "design_strategy": {
+        "total": 104,
+        "associated": 6
+      },
+      "application": {
+        "total": 2,
+        "associated": 0
+      }
+    },
+    "core_relation_families": {
+      "unresolved": 183,
+      "property": 360,
+      "achievement": 46,
+      "enabling": 61,
+      "dependence": 22,
+      "causal_effect": 90,
+      "quantitative_effect": 102,
+      "production": 54,
+      "undergoing": 12,
+      "maintenance": 9,
+      "composition": 36,
+      "improvement": 68,
+      "influence": 52,
+      "facilitation": 25,
+      "use": 21,
+      "provision": 34,
+      "driving": 17,
+      "inhibition": 12,
+      "proposed_application": 2,
+      "causal_attribution": 3,
+      "formation": 18,
+      "control": 8,
+      "association": 18,
+      "functional_role": 14,
+      "mediation": 2,
+      "support": 4,
+      "requirement": 2,
+      "limitation": 14,
+      "explanation": 15,
+      "conversion": 5,
+      "prevention": 1,
+      "correlation": 3,
+      "weakening": 1,
+      "description": 8,
+      "comparison": 4,
+      "combination": 8,
+      "demonstration": 1,
+      "introduction": 3,
+      "agreement": 2,
+      "involvement": 6,
+      "classification": 2,
+      "stabilization": 2,
+      "basis": 2,
+      "synthesis": 1,
+      "consistency": 1,
+      "dominance": 3,
+      "contribution": 7,
+      "cooccurrence": 1,
+      "indication": 3,
+      "covariation": 1,
+      "calculation": 2
+    },
+    "core_unresolved_predicates": [
+      [
+        "establishes",
+        4
+      ],
+      [
+        "underlies",
+        3
+      ],
+      [
+        "is_entropically_consistent_with",
+        3
+      ],
+      [
+        "operates through",
+        3
+      ],
+      [
+        "is_a_strategy_to_enhance",
+        3
+      ],
+      [
+        "disrupts",
+        3
+      ],
+      [
+        "is described in terms of",
+        3
+      ],
+      [
+        "is_essential_for_understanding",
+        2
+      ],
+      [
+        "dictates",
+        2
+      ],
+      [
+        "varies_conditions_of",
+        2
+      ],
+      [
+        "considers",
+        2
+      ],
+      [
+        "is_condition_for",
+        2
+      ],
+      [
+        "is_matrix_of",
+        2
+      ],
+      [
+        "is_selected_for",
+        2
+      ],
+      [
+        "is_predominant_in",
+        2
+      ],
+      [
+        "is sufficient for",
+        2
+      ],
+      [
+        "is similar to",
+        2
+      ],
+      [
+        "considers as a major entropy source",
+        2
+      ],
+      [
+        "may_be_associated_with",
+        2
+      ],
+      [
+        "leverages",
+        2
+      ],
+      [
+        "mediated_by",
+        2
+      ],
+      [
+        "is classified by",
+        2
+      ],
+      [
+        "manifests",
+        2
+      ],
+      [
+        "is cross-linked by",
+        1
+      ],
+      [
+        "rearranges",
+        1
+      ],
+      [
+        "jointly enlarge",
+        1
+      ],
+      [
+        "selectively associate with",
+        1
+      ],
+      [
+        "is_rich_in",
+        1
+      ],
+      [
+        "features",
+        1
+      ],
+      [
+        "is_used_to_propose",
+        1
+      ],
+      [
+        "are_superior_to",
+        1
+      ],
+      [
+        "spatially_segregates_redox_pairs_into",
+        1
+      ],
+      [
+        "accelerates",
+        1
+      ],
+      [
+        "joint regulation with reversible transformation boosts",
+        1
+      ],
+      [
+        "joint regulation with reversible transformation enables",
+        1
+      ],
+      [
+        "proposed to amplify",
+        1
+      ],
+      [
+        "participates in",
+        1
+      ],
+      [
+        "is necessary to maximize",
+        1
+      ],
+      [
+        "described as",
+        1
+      ],
+      [
+        "thermodynamically_curb",
+        1
+      ],
+      [
+        "confines",
+        1
+      ],
+      [
+        "kinetically_reinforces_and_is_reinforced_by",
+        1
+      ],
+      [
+        "serves",
+        1
+      ],
+      [
+        "operate_via",
+        1
+      ],
+      [
+        "is_separate_thermodynamic_cycle_from",
+        1
+      ],
+      [
+        "enters_definition_of",
+        1
+      ],
+      [
+        "can_occur_independently_of",
+        1
+      ],
+      [
+        "strongly_inversely_correlates_with",
+        1
+      ],
+      [
+        "is_origin_of",
+        1
+      ],
+      [
+        "accomplishes",
+        1
+      ],
+      [
+        "releases",
+        1
+      ],
+      [
+        "disturb",
+        1
+      ],
+      [
+        "broaden",
+        1
+      ],
+      [
+        "amplify",
+        1
+      ],
+      [
+        "are_several_orders_of_magnitude_greater_than",
+        1
+      ],
+      [
+        "modification_increases",
+        1
+      ],
+      [
+        "modification_improves",
+        1
+      ],
+      [
+        "moderately_increases",
+        1
+      ],
+      [
+        "is_located_on",
+        1
+      ],
+      [
+        "appears_to_develop",
+        1
+      ],
+      [
+        "eventually_undergoes",
+        1
+      ],
+      [
+        "is_followed_by",
+        1
+      ],
+      [
+        "hosts",
+        1
+      ],
+      [
+        "identified_in",
+        1
+      ],
+      [
+        "rely_on",
+        1
+      ],
+      [
+        "vary_with",
+        1
+      ],
+      [
+        "is connected with",
+        1
+      ],
+      [
+        "operates based on",
+        1
+      ],
+      [
+        "endows device with",
+        1
+      ],
+      [
+        "is described as",
+        1
+      ],
+      [
+        "is housed in",
+        1
+      ],
+      [
+        "can perform",
+        1
+      ],
+      [
+        "exploit",
+        1
+      ],
+      [
+        "is_anodic_to",
+        1
+      ],
+      [
+        "increasingly_limits",
+        1
+      ],
+      [
+        "described_as",
+        1
+      ],
+      [
+        "plays_principal_role_in",
+        1
+      ],
+      [
+        "mitigates",
+        1
+      ],
+      [
+        "magnifies",
+        1
+      ],
+      [
+        "synergizes",
+        1
+      ],
+      [
+        "is_dynamically_coupled_with",
+        1
+      ],
+      [
+        "contributes",
+        1
+      ],
+      [
+        "operates_as",
+        1
+      ],
+      [
+        "appears_commensurate_with",
+        1
+      ],
+      [
+        "is driven by",
+        1
+      ],
+      [
+        "could boost",
+        1
+      ],
+      [
+        "are incorporated into",
+        1
+      ],
+      [
+        "is reported alongside Gdm+-induced crystallization to improve",
+        1
+      ],
+      [
+        "designed_to_enlarge",
+        1
+      ],
+      [
+        "engineers",
+        1
+      ],
+      [
+        "intended_to_enhance",
+        1
+      ],
+      [
+        "confined_within",
+        1
+      ],
+      [
+        "competes_with",
+        1
+      ],
+      [
+        "synergistically_complements",
+        1
+      ],
+      [
+        "participates_in",
+        1
+      ],
+      [
+        "coupled_with",
+        1
+      ],
+      [
+        "is supported on",
+        1
+      ],
+      [
+        "are examined in relation to",
+        1
+      ],
+      [
+        "is identified as",
+        1
+      ],
+      [
+        "more than doubles",
+        1
+      ],
+      [
+        "underlies suppression of",
+        1
+      ],
+      [
+        "is reported with corresponding range",
+        1
+      ],
+      [
+        "operates in",
+        1
+      ],
+      [
+        "terminates",
+        1
+      ],
+      [
+        "is equal to or greater than",
+        1
+      ],
+      [
+        "differs from",
+        1
+      ],
+      [
+        "endows electrolyte with",
+        1
+      ],
+      [
+        "is suggested to further improve",
+        1
+      ],
+      [
+        "is attributed to",
+        1
+      ],
+      [
+        "frustrates",
+        1
+      ],
+      [
+        "when frustrated causes",
+        1
+      ],
+      [
+        "is rationalized by",
+        1
+      ],
+      [
+        "acts to remove",
+        1
+      ],
+      [
+        "is a balance between",
+        1
+      ],
+      [
+        "is coordinated to",
+        1
+      ],
+      [
+        "is obtained from",
+        1
+      ],
+      [
+        "acts synergistically with",
+        1
+      ],
+      [
+        "is derived from",
+        1
+      ],
+      [
+        "remarkably_decreases",
+        1
+      ],
+      [
+        "is_embedded_in",
+        1
+      ],
+      [
+        "intended_to_modulate",
+        1
+      ],
+      [
+        "transforms_electrolyte_into",
+        1
+      ],
+      [
+        "derived_from",
+        1
+      ],
+      [
+        "complements",
+        1
+      ],
+      [
+        "operates_with",
+        1
+      ],
+      [
+        "are_adopted_to_improve",
+        1
+      ],
+      [
+        "adjusts",
+        1
+      ],
+      [
+        "adjustment enables",
+        1
+      ],
+      [
+        "jointly establishes",
+        1
+      ],
+      [
+        "is incorporated for",
+        1
+      ],
+      [
+        "compensates for",
+        1
+      ],
+      [
+        "is intended to minimize",
+        1
+      ],
+      [
+        "encapsulates",
+        1
+      ],
+      [
+        "shifts equilibrium toward",
+        1
+      ],
+      [
+        "reverses equilibrium preference for",
+        1
+      ],
+      [
+        "is dominant in",
+        1
+      ],
+      [
+        "is coupled to",
+        1
+      ],
+      [
+        "impacts",
+        1
+      ],
+      [
+        "is directly involved in",
+        1
+      ],
+      [
+        "are recognized to exhibit",
+        1
+      ],
+      [
+        "mostly determines",
+        1
+      ],
+      [
+        "shortens",
+        1
+      ],
+      [
+        "is realistically projected to achieve",
+        1
+      ],
+      [
+        "is reported as four orders of magnitude larger than",
+        1
+      ],
+      [
+        "accelerate",
+        1
+      ],
+      [
+        "entropically drives",
+        1
+      ],
+      [
+        "occurs concomitantly with",
+        1
+      ],
+      [
+        "is intercalated with",
+        1
+      ],
+      [
+        "remains_approximately_equal_to",
+        1
+      ],
+      [
+        "is_assessed_in_relation_to",
+        1
+      ],
+      [
+        "leach from",
+        1
+      ],
+      [
+        "is in good agreement with",
+        1
+      ]
+    ],
+    "core_raw_expression_components": 615,
+    "core_raw_expression_largest_component": 62,
+    "accepted_evidence_quote_checks": {
+      "exact_quote_match": 3617,
+      "context_quote_total": 1408,
+      "context_quote_exact_match": 1408
+    },
+    "core_duplicate_claim_groups": [],
+    "top_concepts_by_expression_count": [
+      [
+        "TG:concept:seebeck",
+        "Seebeck coefficient",
+        133
+      ],
+      [
+        "TG:concept:ionic_seebeck",
+        "Ionic Seebeck coefficient",
+        22
+      ],
+      [
+        "TG:concept:ionic_conductivity",
+        "Ionic conductivity",
+        19
+      ],
+      [
+        "TG:concept:entropy",
+        "Entropy (unspecified type)",
+        13
+      ],
+      [
+        "TG:concept:te_performance",
+        "Thermoelectric performance",
+        10
+      ],
+      [
+        "TG:concept:thermodiffusion",
+        "Thermodiffusion",
+        8
+      ],
+      [
+        "TG:concept:redox_entropy",
+        "Redox entropy",
+        7
+      ],
+      [
+        "TG:concept:thermal_conductivity",
+        "Thermal conductivity",
+        7
+      ],
+      [
+        "TG:concept:redox_reaction",
+        "Redox reactions",
+        7
+      ],
+      [
+        "TG:concept:electrical_conductivity",
+        "Electrical conductivity",
+        7
+      ],
+      [
+        "TG:concept:concentration_gradient",
+        "Concentration gradient",
+        7
+      ],
+      [
+        "TG:concept:hydrogen_bond",
+        "Hydrogen bonding",
+        7
+      ],
+      [
+        "TG:concept:conductivity_unspecified",
+        "Conductivity (unspecified)",
+        6
+      ],
+      [
+        "TG:concept:electrode_kinetics",
+        "Electrode kinetics",
+        6
+      ],
+      [
+        "TG:concept:potential_difference",
+        "Electric potential difference",
+        6
+      ]
+    ],
+    "core_same_concept_edges": 7,
+    "core_effect_direction": {
+      "unspecified": 1255,
+      "decrease": 24,
+      "unchanged": 9,
+      "increase": 80,
+      "negligible": 3
+    },
+    "core_normalization_status": {
+      "verbatim_retained": 183,
+      "normalized": 985,
+      "normalized_with_residual": 203
+    },
+    "core_negated_edges": 12,
+    "core_joint_edges": 96,
+    "core_assertions": {
+      "author_claim": 1229,
+      "association": 89,
+      "hypothesis": 41,
+      "negated": 12
+    }
+  }
+}

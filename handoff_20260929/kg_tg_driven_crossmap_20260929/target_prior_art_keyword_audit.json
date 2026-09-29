@@ -1,0 +1,23 @@
+[
+  {
+    "card": "H01",
+    "regex": "SrTiO3|strontium titanate|ferroelectric|local electric field",
+    "searched": "all 333 cleaned TG abstract fields, including retained empty abstract",
+    "paper_hits": [],
+    "limitation": "Keyword non-hit is not semantic absence, full-text search or proof of novelty."
+  },
+  {
+    "card": "H02",
+    "regex": "MOF|metal.organic framework|water.harvest",
+    "searched": "all 333 cleaned TG abstract fields, including retained empty abstract",
+    "paper_hits": [],
+    "limitation": "Keyword non-hit is not semantic absence, full-text search or proof of novelty."
+  },
+  {
+    "card": "H03",
+    "regex": "breathing polymer|dissociation of ion aggregates|polymer.chain.*dissoci",
+    "searched": "all 333 cleaned TG abstract fields, including retained empty abstract",
+    "paper_hits": [],
+    "limitation": "Keyword non-hit is not semantic absence, full-text search or proof of novelty."
+  }
+]

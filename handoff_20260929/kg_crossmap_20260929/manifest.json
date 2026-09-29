@@ -1,0 +1,38 @@
+{
+  "inputs": {
+    "kg_crossmap_readiness_20260929/repair_snapshot/iTE/graph.json": "b47c7e75bb99dbf33619bd92368d01fc6808a9ab822fed02a4b7cf0382daa8e4",
+    "kg_crossmap_readiness_20260929/repair_snapshot/TG/graph.json": "6e6cf285452b79f9c38273641b640df843052c5d7c308547625a6b19727290bc",
+    "cleaned_ite_tg/data/ite_clean.csv": "f73c4b47b3b3a5a00c2506e71b67f5d45af7fb867d8277eb8e55c31ae3259337",
+    "cleaned_ite_tg/data/tg_clean.csv": "8cbf7cac9cf24fe0a3415c69065c49763f1221f4238e0a059412cde9bd6170ee"
+  },
+  "script_sha256": "034b0bcbcaa0f3e9319053d0b895340161af8488d9593d7b4c42fbd78f2f5bc5",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "cached_model_revisions": [
+    "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+  ],
+  "scope": "ALL original source expressions; all accepted claims. Deferred edges retained in input, not used for neighborhoods. No papers removed.",
+  "semantic_formula": ".75 cosine(label) + .25 cosine(label + <=3 representative claim contexts); max tokens 192",
+  "structure_formula": "shared TF-IDF/log-count cosine of typed 1-hop/2-hop features; .65/.35 if both have 2-hop, otherwise 1-hop; paths restricted to same paper; generic edges downweighted .35 before log",
+  "fusion_formula": "(1-w)*semantic+w*structure; w=.25*min(reliability_i,reliability_j); reliability=min(degree/3,1)*(.3+.7*min(non_generic_relations/2,1))",
+  "weight_status": "fixed exploratory heuristics, not learned or validated probabilities",
+  "tie_policy": "structural retrieval and group ranking use no node-text semantic tie-breaker; equal structural scores may yield arbitrary deterministic candidates",
+  "grouping": "existing domain concepts when available, else exact normalized labels. Grouping is display/evidence organization, not identity merging; qualifiers remain in original nodes.",
+  "n_iTE": 25203,
+  "n_TG": 4695,
+  "all_pairs_scored": 118328085,
+  "candidate_pairs": 739644,
+  "groups": 554249,
+  "mean_semantic_combined_top20_overlap": 0.9137027338015317,
+  "no_accepted_neighborhood": {
+    "iTE": 384,
+    "TG": 58
+  },
+  "two_hop_cap_reached": {
+    "iTE": 2,
+    "TG": 0
+  },
+  "elapsed_seconds": 65.10612201690674,
+  "no_training": true,
+  "no_remote_data_transmission": true,
+  "readiness_note": "Supersedes blanket stop wording only for exploratory retrieval. Neither repaired graph nor this run is certified for unreviewed causal transfer."
+}

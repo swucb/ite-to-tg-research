@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source_needs": 4,
+  "atomic_needs": 6,
+  "hypotheses": 3,
+  "target_domain": "TG",
+  "knowledge_source": "iTE",
+  "new_retrieval_or_training": false,
+  "scientific_transfer_validated": false
+}

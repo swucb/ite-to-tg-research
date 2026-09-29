@@ -1,0 +1,38 @@
+{
+  "inputs": {
+    "kg_crossmap_readiness_20260929/repair_snapshot/iTE/graph.json": "b47c7e75bb99dbf33619bd92368d01fc6808a9ab822fed02a4b7cf0382daa8e4",
+    "kg_crossmap_readiness_20260929/repair_snapshot/TG/graph.json": "6e6cf285452b79f9c38273641b640df843052c5d7c308547625a6b19727290bc",
+    "cleaned_ite_tg/data/ite_clean.csv": "f73c4b47b3b3a5a00c2506e71b67f5d45af7fb867d8277eb8e55c31ae3259337",
+    "cleaned_ite_tg/data/tg_clean.csv": "8cbf7cac9cf24fe0a3415c69065c49763f1221f4238e0a059412cde9bd6170ee",
+    "kg_crossmap_20260929/label_embeddings.npy": "47cee1f0900413442530d4529fdb5f6ad8be2d03c4c52f2021f6bd546c32f7a6",
+    "kg_crossmap_20260929/context_embeddings.npy": "74244ebcf4d9e57a44718f2c4090feedc6f0098e3765e44ea35edf1fa7e62ee4",
+    "kg_crossmap_20260929/iTE/nodes.json": "9fef5ac2046ec5e3f211df9d1d65f0363eb6e0a6660492a3dbb11de2f047e89e",
+    "kg_crossmap_20260929/TG/nodes.json": "0cbe49b936fa01b31978cac3492d0a7c2b0e2ba3c4d4c69b10881c386ad97842"
+  },
+  "script_sha256": "1fde2597c81a20890019b8c70698f52ea7db2f843129006675b3296a8a31ae71",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "new_query_and_claim_max_tokens": 256,
+  "cached_model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "no_training": true,
+  "no_remote_transmission": true,
+  "stats": {
+    "iTE": {
+      "registered_papers": 1644,
+      "scored_claims": 20699,
+      "scored_need_claim_pairs": 82796,
+      "encoded_claims": 644
+    },
+    "TG": {
+      "registered_papers": 333,
+      "scored_claims": 3617,
+      "scored_need_claim_pairs": 14468,
+      "encoded_claims": 561
+    }
+  },
+  "scope": "Four explicitly selected TG needs; all registered papers retained, all accepted source and target claims scored. Need selection is not an exhaustive inventory of TG problems.",
+  "coarse_formula": ".75 desired-outcome / object label cosine + .25 TG context / object context cosine; top200 per need and domain",
+  "rerank_formula": ".55 outcome cosine + .45 query / claim evidence cosine - .10 generic property/description penalty",
+  "structure_use": "Actual same-paper directed upstream/downstream neighborhoods attached for evidence review; no bonus for mere graph shape; no automatic causal transfer inference.",
+  "grouping": "Best ranked claim per paper; top5 papers per need and domain for assistant review. No score confidence threshold; all candidates may be rejected.",
+  "limitations": "Not exhaustive retrieval; MiniLM general model; query formulation and assistant labels not independent gold; novelty not established; no quantitative improvement claim over different first-run task."
+}

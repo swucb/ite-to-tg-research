@@ -1,0 +1,2 @@
+# Tested locally for frozen numerical verification. Corpus/package checks need stdlib only.
+numpy==2.4.6

@@ -1,0 +1,65 @@
+{
+  "retrieved_at": "2026-09-29",
+  "repo_url": "https://github.com/MasterAI-EAM/Material-Knowledge-Graph",
+  "current_commit": "3c02091890a1a3d9e1e871b9651b8b6b1acf4bb4",
+  "graph_completion_commit": "fac8bb83f078d64ee643e0f0e5ac8a28e764b39b",
+  "deletion_commit": "fee563926d480b5f2a564d3cf6c57d7697af4471",
+  "source_files": [
+    {
+      "file": "Entity Resolution.ipynb",
+      "sha256": "b2e078aaf34b1bf260e10091eae30bead700fdd04d97f57340ee9c8a71148ac6"
+    },
+    {
+      "file": "README.md",
+      "sha256": "750b1cec14ae22832a6ca8c11b8293ccecca1e4d0b44c54115d1363515dd25a4"
+    },
+    {
+      "file": "data/TrainSet1.0.json",
+      "sha256": "62ba8d8ee5bf72c938fa938e8e0c608a534aef2ee7dee6fc9e44c7b5b70ebec0"
+    },
+    {
+      "file": "data/TrainSet2.0.json",
+      "sha256": "ca3ae99b98e6631eb47eb809a61de5b1c5f159cb34b89fb9272c46f091d8b457"
+    },
+    {
+      "file": "data/TrainSet_bc.json",
+      "sha256": "0e4bac957859ac363579a156a260ce900fff52bc596c6c58cddb58f6a96017b2"
+    },
+    {
+      "file": "entity_resolution_audit.py",
+      "sha256": "9d10811eb733052073ce5f9c2f5892b187474f7b285846afee5977b6e0aa4a20"
+    },
+    {
+      "file": "graph_completion_historical.ipynb",
+      "sha256": "4dc4f2b5bf2edc044e178fd7b34d18a5f218d61790ed3eac7580dd8d426392a7"
+    },
+    {
+      "file": "graph_completion_historical_audit.py",
+      "sha256": "e54495d0019fe30df20f6028e96bd3c8a285310c4840414122905c4a29d9a728"
+    },
+    {
+      "file": "inference_KG.py",
+      "sha256": "dd1f2889665f393a8273a549357797a1a80a7a3588671177355e4e703b99173a"
+    },
+    {
+      "file": "neurips2024_mkg.pdf",
+      "sha256": "b0b2a315fc8d3b5df646155155b247bd88e265a2769364ff1fae1d9f6d81d26d"
+    },
+    {
+      "file": "neurips2024_mkg.txt",
+      "sha256": "dd995b127df7a925d4d88ec2bf7ee3db4a3afe2e3925eaa4a7d69bc5ed88f445"
+    }
+  ],
+  "notebook_execution": "Not executed. Static code analysis only; do not treat historical code as current official release.",
+  "current_tree": [
+    "Entity Resolution.ipynb",
+    "README.md",
+    "data/Keywords.xlsx",
+    "data/Property.xlsx",
+    "data/TrainSet1.0.json",
+    "data/TrainSet2.0.json",
+    "data/TrainSet_bc.json",
+    "inference_KG.py"
+  ],
+  "data_policy": "External reference training sets only. Not part of the iTE/TG default corpus; do not recursively collect for training."
+}

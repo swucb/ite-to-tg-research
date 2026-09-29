@@ -1,0 +1,20 @@
+{
+  "iTE": {
+    "status": "PASS",
+    "source_claims_unchanged": 20699,
+    "deferred_claims_unchanged": 375,
+    "all_source_records_preserved": true,
+    "association_changes": 1,
+    "source_graph_sha256_unchanged": true,
+    "edge_concept_metadata_and_memberships_consistent": true
+  },
+  "TG": {
+    "status": "PASS",
+    "source_claims_unchanged": 3617,
+    "deferred_claims_unchanged": 51,
+    "all_source_records_preserved": true,
+    "association_changes": 3,
+    "source_graph_sha256_unchanged": true,
+    "edge_concept_metadata_and_memberships_consistent": true
+  }
+}

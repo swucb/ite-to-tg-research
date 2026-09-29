@@ -1,0 +1,201 @@
+{
+  "status": "proposed_not_run",
+  "created": "2026-09-29",
+  "corpus": {
+    "iTE": "cleaned_ite_tg/data/ite_clean.csv",
+    "TG": "cleaned_ite_tg/data/tg_clean.csv",
+    "counts": {
+      "iTE": 1644,
+      "TG": 333
+    },
+    "preserve_all_papers": true
+  },
+  "graph_inputs": {
+    "iTE": "kg_crossmap_readiness_20260929/repair_snapshot/iTE/graph.json",
+    "TG": "kg_crossmap_readiness_20260929/repair_snapshot/TG/graph.json"
+  },
+  "frozen_baseline": "kg_tg_driven_crossmap_20260929/manifest.json",
+  "upstream": {
+    "repository": "https://github.com/MasterAI-EAM/Material-Knowledge-Graph",
+    "head": "3c02091890a1a3d9e1e871b9651b8b6b1acf4bb4",
+    "historical_graph_completion": "fac8bb83f078d64ee643e0f0e5ac8a28e764b39b",
+    "label": "historical implementation adaptation, not reproduction of final paper"
+  },
+  "models": [
+    {
+      "role": "baseline_encoder",
+      "id": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "query_prefix": "",
+      "passage_prefix": "",
+      "local_test_status": "tokenization_audit_only"
+    },
+    {
+      "role": "candidate_encoder",
+      "id": "BAAI/bge-base-en-v1.5",
+      "revision": "resolve_and_pin_before_run",
+      "query_prefix": "Represent this sentence for searching relevant passages: ",
+      "passage_prefix": "",
+      "local_test_status": "not_run"
+    },
+    {
+      "role": "candidate_encoder",
+      "id": "intfloat/e5-base-v2",
+      "revision": "resolve_and_pin_before_run",
+      "query_prefix": "query: ",
+      "passage_prefix": "passage: ",
+      "local_test_status": "not_run"
+    },
+    {
+      "role": "candidate_encoder",
+      "id": "m3rg-iitd/matscibert",
+      "revision": "resolve_and_pin_before_run",
+      "query_prefix": "",
+      "passage_prefix": "",
+      "pooling": "attention-masked mean of last hidden states, excluding padding and special tokens; L2 normalization",
+      "preprocessing": "review and pin official normalize_text.py; record normalization and preserve original evidence text",
+      "local_test_status": "not_run",
+      "interpretation": "off-the-shelf domain-pretrained encoder with specified pooling; not a contrastively fine-tuned sentence encoder"
+    },
+    {
+      "role": "cross_encoder_reranker",
+      "id": "BAAI/bge-reranker-v2-m3",
+      "revision": "resolve_and_pin_before_run",
+      "input": "query,evidence pair",
+      "local_test_status": "not_run"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "E0",
+      "change": "replay frozen current baseline"
+    },
+    {
+      "id": "E1",
+      "change": "same MiniLM; add full-claim evidence retrieval and BM25 to object-label retrieval; retain all channel ranks"
+    },
+    {
+      "id": "E2",
+      "change": "same E1 pipeline, BGE encoder; recompute all indexed representations"
+    },
+    {
+      "id": "E3",
+      "change": "same E1 pipeline, E5 encoder; recompute all indexed representations"
+    },
+    {
+      "id": "E4",
+      "change": "cross-encoder rerank on identical frozen union candidate pool; end-to-end retrieval reported separately"
+    },
+    {
+      "id": "E5",
+      "change": "independent upstream historical dual-Jaccard baseline with explicitly typed attribute mapping and coverage report"
+    },
+    {
+      "id": "E6",
+      "change": "candidate compatibility review using whole predicate, object semantics, species, conditions, joint factors and assertion; report ablation separately"
+    },
+    {
+      "id": "E7",
+      "change": "same E1 pipeline, MatSciBERT encoder with explicitly specified normalization and pooling; rebuild all indexed representations; no task fine-tuning in this first comparison"
+    }
+  ],
+  "cache_key_fields": [
+    "model_id",
+    "resolved_revision",
+    "tokenizer_revision",
+    "pooling",
+    "normalization",
+    "max_length",
+    "query_or_document_prefix",
+    "serialization_version",
+    "chunking_policy",
+    "ordered_text_hash",
+    "input_hashes"
+  ],
+  "encoder_comparison": {
+    "primary": "fixed evidence content and 256-token cap, proper model-specific prefix/pooling; log actual truncation",
+    "secondary": "native supported context length sensitivity analysis, explicitly not model-only comparison",
+    "require_same_embedding_space": true,
+    "compare_rank_metrics_not_cosine_magnitudes": true,
+    "new_models_must_retrieve_from_full_accepted_claim_index": true,
+    "reranker_fixed_pool_experiment_is_separate": true
+  },
+  "claim_serialization": [
+    "subject",
+    "predicate",
+    "object",
+    "negation",
+    "assertion",
+    "joint_factors",
+    "conditions",
+    "supporting_quote",
+    "context_quotes"
+  ],
+  "regression_cases": [
+    {
+      "need": "N02",
+      "claim": "iTE:P0689:r004",
+      "current_rank": 1,
+      "issue": "ion aggregation vs desired dissociation",
+      "independent_gold": false
+    },
+    {
+      "need": "N03",
+      "claim": "iTE:P0404:r007",
+      "current_rank": 2,
+      "issue": "water loss vs desired water retention",
+      "independent_gold": false
+    },
+    {
+      "need": "N03",
+      "claim": "iTE:P0621:r010",
+      "current_rank": 105,
+      "issue": "retained through supplemental review, not original top5 success",
+      "independent_gold": false
+    }
+  ],
+  "judgment_axes": [
+    "retrieval_relevance",
+    "effect_compatibility",
+    "evidence_support",
+    "assertion_strength",
+    "joint_factor_dependency",
+    "target_species_and_system_compatibility",
+    "prior_target_work",
+    "unresolved_transfer_gap"
+  ],
+  "evaluation": {
+    "current_pilot": "4 needs and assistant reviews are development diagnostics, not independent gold",
+    "initial_annotation_budget_suggestion": "200-400 query-claim items from pooled model outputs plus hard negatives; add more independently anchored needs before population claims",
+    "blinding": "domain annotators should not see model identity or score",
+    "splits": "group by paper/need; never split sibling claims randomly across train and test",
+    "metrics": [
+      "known-positive recall@50/200",
+      "pooled nDCG@10 with unjudged policy disclosed",
+      "paper-level useful items@5",
+      "opposite-effect retrieval rate",
+      "existing-TG-work detection",
+      "latency",
+      "memory",
+      "truncation",
+      "coverage",
+      "review_workload"
+    ],
+    "unknown_is_not_negative": true
+  },
+  "temporal_followup": {
+    "status": "later_phase",
+    "freeze_before_cutoff": [
+      "source_papers",
+      "claims",
+      "vocabulary_construction",
+      "candidate_generation",
+      "target_needs_and_prior_art"
+    ],
+    "separate_dev_test_windows": true,
+    "pretrained_future_exposure": "document training cutoff; absent assurance call retrospective retrieval, not prospective prediction",
+    "unreported_candidates": "unverified, not demonstrated physical failures"
+  },
+  "acceptance": "Adopt a new model only after same-task blinded held-out comparison shows a useful gain at an acceptable cost. Never replace the encoder solely on an external leaderboard or the upstream extraction F1.",
+  "user_update": "Include MatSciBERT in the first encoder comparison; domain pretraining is a reason to test it, not evidence of a win or a reason to exclude it."
+}

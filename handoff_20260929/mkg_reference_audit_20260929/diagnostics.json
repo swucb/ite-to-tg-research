@@ -1,0 +1,127 @@
+{
+  "input_manifest_checks": "PASS",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "domains": {
+    "iTE": {
+      "papers": 1644,
+      "claims": 20699,
+      "effect_direction_counts": {
+        "unspecified": 19418,
+        "increase": 623,
+        "unchanged": 145,
+        "decrease": 512,
+        "negligible": 1
+      },
+      "node_contexts": {
+        "n": 25203,
+        "cap": 192,
+        "over_cap": 4550,
+        "over_cap_fraction": 0.18053406340515019,
+        "median_tokens": 109.0,
+        "p95_tokens": 290.0,
+        "max_tokens": 857
+      },
+      "shortlisted_claim_texts": {
+        "n": 644,
+        "cap": 256,
+        "over_cap": 8,
+        "over_cap_fraction": 0.012422360248447204,
+        "median_tokens": 88.5,
+        "p95_tokens": 193.85000000000002,
+        "max_tokens": 460
+      },
+      "shortlisted_claims_repeating_quote_in_context": 0,
+      "claims_with_nonempty_conditions": 415,
+      "conditions_start_at_or_beyond_content_budget": 4,
+      "top200_unique_papers": {
+        "N01": 128,
+        "N02": 154,
+        "N03": 112,
+        "N04": 139
+      }
+    },
+    "TG": {
+      "papers": 333,
+      "claims": 3617,
+      "effect_direction_counts": {
+        "unspecified": 3396,
+        "decrease": 50,
+        "increase": 121,
+        "unchanged": 47,
+        "negligible": 3
+      },
+      "node_contexts": {
+        "n": 4695,
+        "cap": 192,
+        "over_cap": 792,
+        "over_cap_fraction": 0.16869009584664538,
+        "median_tokens": 104.0,
+        "p95_tokens": 296.3000000000002,
+        "max_tokens": 599
+      },
+      "shortlisted_claim_texts": {
+        "n": 561,
+        "cap": 256,
+        "over_cap": 0,
+        "over_cap_fraction": 0.0,
+        "median_tokens": 91.0,
+        "p95_tokens": 189.0,
+        "max_tokens": 247
+      },
+      "shortlisted_claims_repeating_quote_in_context": 0,
+      "claims_with_nonempty_conditions": 352,
+      "conditions_start_at_or_beyond_content_budget": 0,
+      "top200_unique_papers": {
+        "N01": 126,
+        "N02": 115,
+        "N03": 102,
+        "N04": 112
+      }
+    }
+  },
+  "reconstructed_cached_text_hashes": "PASS",
+  "assistant_review_status_counts": {
+    "排除": 11,
+    "待定参考": 3,
+    "保留假设": 2,
+    "已有机制参考": 5,
+    "保留假设（低证据）": 1
+  },
+  "upstream_probe": {
+    "identical_material_features_but_no_application_properties": [],
+    "after_adding_shared_application_property": [
+      [
+        "candidate",
+        "known",
+        1.0,
+        "target"
+      ],
+      [
+        "known",
+        "candidate",
+        1.0,
+        "other"
+      ]
+    ],
+    "undirected_same_pair_relation_overwrite": {
+      "edges": 1,
+      "stored_relation": "r2"
+    },
+    "scope": "Synthetic implementation checks, not material-science performance evaluation."
+  },
+  "upstream_training_data": {
+    "row_counts": {
+      "TrainSet2.0.json": 90,
+      "TrainSet1.0.json": 562,
+      "TrainSet_bc.json": 1801
+    },
+    "unique_inputs": {
+      "TrainSet2.0.json": 90,
+      "TrainSet1.0.json": 497,
+      "TrainSet_bc.json": 1758
+    },
+    "exact_input_overlap_v1_v2": 31,
+    "interpretation": "Overlap is not proof of evaluation leakage: the released evaluation subset is not identified."
+  }
+}
